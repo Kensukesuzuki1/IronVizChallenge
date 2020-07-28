@@ -1,0 +1,895 @@
+,State,State Code,County,County Code,Deaths,Population,Year
+0,Alabama,1,"Autauga County, AL",1001,11,55246,2013
+1,Alabama,1,"Baldwin County, AL",1003,37,195540,2013
+2,Alabama,1,"Calhoun County, AL",1015,19,116736,2013
+3,Alabama,1,"Cullman County, AL",1043,12,80811,2013
+4,Alabama,1,"Elmore County, AL",1051,12,80902,2013
+5,Alabama,1,"Etowah County, AL",1055,21,103931,2013
+6,Alabama,1,"Houston County, AL",1069,15,103668,2013
+7,Alabama,1,"Jackson County, AL",1071,14,52951,2013
+8,Alabama,1,"Jefferson County, AL",1073,86,659479,2013
+9,Alabama,1,"Lauderdale County, AL",1077,14,92797,2013
+10,Alabama,1,"Lee County, AL",1081,19,150933,2013
+11,Alabama,1,"Limestone County, AL",1083,11,88845,2013
+12,Alabama,1,"Madison County, AL",1089,55,346892,2013
+13,Alabama,1,"Marshall County, AL",1095,20,94760,2013
+14,Alabama,1,"Mobile County, AL",1097,57,414079,2013
+15,Alabama,1,"Montgomery County, AL",1101,21,226659,2013
+16,Alabama,1,"Morgan County, AL",1103,14,119787,2013
+17,Alabama,1,"St. Clair County, AL",1115,18,86308,2013
+18,Alabama,1,"Shelby County, AL",1117,28,204180,2013
+19,Alabama,1,"Talladega County, AL",1121,11,81096,2013
+20,Alabama,1,"Tuscaloosa County, AL",1125,25,200821,2013
+21,Alabama,1,"Walker County, AL",1127,10,65998,2013
+22,Alaska,2,"Anchorage Borough, AK",2020,60,300950,2013
+23,Alaska,2,"Fairbanks North Star Borough, AK",2090,20,100436,2013
+24,Alaska,2,"Hoonah-Angoon Census Area, AK",2105,Missing,Missing,2013
+25,Alaska,2,"Kenai Peninsula Borough, AK",2122,15,57147,2013
+26,Alaska,2,"Matanuska-Susitna Borough, AK",2170,19,95192,2013
+27,Alaska,2,"Petersburg Borough/Census Area, AK",2195,Missing,Missing,2013
+28,Alaska,2,"Prince of Wales-Hyder Census Area, AK",2198,Missing,Missing,2013
+29,Alaska,2,"Skagway Municipality, AK",2230,Missing,Missing,2013
+30,Alaska,2,"Wade Hampton Census Area, AK",2270,10,7977,2013
+31,Alaska,2,"Wrangell City and Borough, AK",2275,Missing,Missing,2013
+32,Arizona,4,"Apache County, AZ",4001,28,71934,2013
+33,Arizona,4,"Cochise County, AZ",4003,24,129473,2013
+34,Arizona,4,"Coconino County, AZ",4005,29,136539,2013
+35,Arizona,4,"Gila County, AZ",4007,17,53053,2013
+36,Arizona,4,"Maricopa County, AZ",4013,629,4009412,2013
+37,Arizona,4,"Mohave County, AZ",4015,77,203030,2013
+38,Arizona,4,"Navajo County, AZ",4017,24,107322,2013
+39,Arizona,4,"Pima County, AZ",4019,184,996554,2013
+40,Arizona,4,"Pinal County, AZ",4021,53,389350,2013
+41,Arizona,4,"Yavapai County, AZ",4025,61,215133,2013
+42,Arizona,4,"Yuma County, AZ",4027,17,201201,2013
+43,Arkansas,5,"Baxter County, AR",5005,16,40957,2013
+44,Arkansas,5,"Benton County, AR",5007,34,237297,2013
+45,Arkansas,5,"Boone County, AR",5009,15,37396,2013
+46,Arkansas,5,"Craighead County, AR",5031,23,101488,2013
+47,Arkansas,5,"Crawford County, AR",5033,13,61640,2013
+48,Arkansas,5,"Faulkner County, AR",5045,16,119580,2013
+49,Arkansas,5,"Garland County, AR",5051,23,97173,2013
+50,Arkansas,5,"Greene County, AR",5055,12,43097,2013
+51,Arkansas,5,"Hot Spring County, AR",5059,10,33500,2013
+52,Arkansas,5,"Pulaski County, AR",5119,64,391284,2013
+53,Arkansas,5,"Saline County, AR",5125,13,114404,2013
+54,Arkansas,5,"Sebastian County, AR",5131,21,127342,2013
+55,Arkansas,5,"Washington County, AR",5143,28,216410,2013
+56,Arkansas,5,"White County, AR",5145,18,78483,2013
+57,California,6,"Alameda County, CA",6001,150,1578891,2013
+58,California,6,"Butte County, CA",6007,45,222090,2013
+59,California,6,"Calaveras County, CA",6009,10,44515,2013
+60,California,6,"Contra Costa County, CA",6013,105,1094205,2013
+61,California,6,"El Dorado County, CA",6017,21,181737,2013
+62,California,6,"Fresno County, CA",6019,99,955272,2013
+63,California,6,"Humboldt County, CA",6023,36,134493,2013
+64,California,6,"Imperial County, CA",6025,12,176584,2013
+65,California,6,"Kern County, CA",6029,115,864124,2013
+66,California,6,"Kings County, CA",6031,13,150960,2013
+67,California,6,"Lake County, CA",6033,17,63860,2013
+68,California,6,"Lassen County, CA",6035,11,32163,2013
+69,California,6,"Los Angeles County, CA",6037,798,10017068,2013
+70,California,6,"Madera County, CA",6039,23,152389,2013
+71,California,6,"Marin County, CA",6041,39,258365,2013
+72,California,6,"Mendocino County, CA",6045,27,87192,2013
+73,California,6,"Merced County, CA",6047,20,263228,2013
+74,California,6,"Monterey County, CA",6053,30,428826,2013
+75,California,6,"Napa County, CA",6055,18,140326,2013
+76,California,6,"Nevada County, CA",6057,18,98200,2013
+77,California,6,"Orange County, CA",6059,313,3114363,2013
+78,California,6,"Placer County, CA",6061,45,367309,2013
+79,California,6,"Riverside County, CA",6065,240,2292507,2013
+80,California,6,"Sacramento County, CA",6067,221,1462131,2013
+81,California,6,"San Bernardino County, CA",6071,203,2088371,2013
+82,California,6,"San Diego County, CA",6073,431,3211252,2013
+83,California,6,"San Francisco County, CA",6075,72,837442,2013
+84,California,6,"San Joaquin County, CA",6077,77,704379,2013
+85,California,6,"San Luis Obispo County, CA",6079,45,276443,2013
+86,California,6,"San Mateo County, CA",6081,60,747373,2013
+87,California,6,"Santa Barbara County, CA",6083,44,435697,2013
+88,California,6,"Santa Clara County, CA",6085,152,1862041,2013
+89,California,6,"Santa Cruz County, CA",6087,42,269419,2013
+90,California,6,"Shasta County, CA",6089,36,178980,2013
+91,California,6,"Siskiyou County, CA",6093,11,43799,2013
+92,California,6,"Solano County, CA",6095,46,424788,2013
+93,California,6,"Sonoma County, CA",6097,55,495025,2013
+94,California,6,"Stanislaus County, CA",6099,54,525491,2013
+95,California,6,"Sutter County, CA",6101,10,95350,2013
+96,California,6,"Tehama County, CA",6103,15,63057,2013
+97,California,6,"Tulare County, CA",6107,49,454143,2013
+98,California,6,"Ventura County, CA",6111,117,839620,2013
+99,California,6,"Yolo County, CA",6113,12,204593,2013
+100,California,6,"Yuba County, CA",6115,10,73340,2013
+101,Colorado,8,"Adams County, CO",8001,71,469193,2013
+102,Colorado,8,"Arapahoe County, CO",8005,111,607070,2013
+103,Colorado,8,"Boulder County, CO",8013,56,310048,2013
+104,Colorado,8,"Delta County, CO",8029,12,30483,2013
+105,Colorado,8,"Denver County, CO",8031,97,649495,2013
+106,Colorado,8,"Douglas County, CO",8035,61,305963,2013
+107,Colorado,8,"El Paso County, CO",8041,151,655044,2013
+108,Colorado,8,"Fremont County, CO",8043,21,46451,2013
+109,Colorado,8,"Garfield County, CO",8045,14,57302,2013
+110,Colorado,8,"Jefferson County, CO",8059,92,551798,2013
+111,Colorado,8,"La Plata County, CO",8067,10,53284,2013
+112,Colorado,8,"Larimer County, CO",8069,56,315988,2013
+113,Colorado,8,"Mesa County, CO",8077,28,147554,2013
+114,Colorado,8,"Montezuma County, CO",8083,11,25642,2013
+115,Colorado,8,"Pueblo County, CO",8101,33,161451,2013
+116,Colorado,8,"Summit County, CO",8117,10,28649,2013
+117,Colorado,8,"Weld County, CO",8123,49,269785,2013
+118,Connecticut,9,"Fairfield County, CT",9001,75,939904,2013
+119,Connecticut,9,"Hartford County, CT",9003,78,898272,2013
+120,Connecticut,9,"Litchfield County, CT",9005,28,186924,2013
+121,Connecticut,9,"Middlesex County, CT",9007,13,165562,2013
+122,Connecticut,9,"New Haven County, CT",9009,76,862287,2013
+123,Connecticut,9,"New London County, CT",9011,31,274150,2013
+124,Connecticut,9,"Windham County, CT",9015,20,117604,2013
+125,Delaware,10,"Kent County, DE",10001,27,169416,2013
+126,Delaware,10,"New Castle County, DE",10003,69,549684,2013
+127,Delaware,10,"Sussex County, DE",10005,26,206649,2013
+128,District of Columbia,11,"District of Columbia, DC",11001,38,646449,2013
+129,Florida,12,"Alachua County, FL",12001,33,253451,2013
+130,Florida,12,"Bay County, FL",12005,35,174987,2013
+131,Florida,12,"Brevard County, FL",12009,124,550823,2013
+132,Florida,12,"Broward County, FL",12011,212,1838844,2013
+133,Florida,12,"Charlotte County, FL",12015,30,164736,2013
+134,Florida,12,"Citrus County, FL",12017,41,139271,2013
+135,Florida,12,"Clay County, FL",12019,31,196399,2013
+136,Florida,12,"Collier County, FL",12021,41,339642,2013
+137,Florida,12,"Columbia County, FL",12023,13,67543,2013
+138,Florida,12,"Duval County, FL",12031,135,885855,2013
+139,Florida,12,"Escambia County, FL",12033,49,305817,2013
+140,Florida,12,"Flagler County, FL",12035,17,99956,2013
+141,Florida,12,"Hernando County, FL",12053,40,174441,2013
+142,Florida,12,"Highlands County, FL",12055,28,97616,2013
+143,Florida,12,"Hillsborough County, FL",12057,166,1291578,2013
+144,Florida,12,"Indian River County, FL",12061,28,141994,2013
+145,Florida,12,"Lake County, FL",12069,44,308034,2013
+146,Florida,12,"Lee County, FL",12071,100,661115,2013
+147,Florida,12,"Leon County, FL",12073,36,281845,2013
+148,Florida,12,"Levy County, FL",12075,12,39644,2013
+149,Florida,12,"Manatee County, FL",12081,70,342106,2013
+150,Florida,12,"Marion County, FL",12083,75,337362,2013
+151,Florida,12,"Martin County, FL",12085,33,151263,2013
+152,Florida,12,"Miami-Dade County, FL",12086,222,2617176,2013
+153,Florida,12,"Monroe County, FL",12087,32,76351,2013
+154,Florida,12,"Nassau County, FL",12089,19,75710,2013
+155,Florida,12,"Okaloosa County, FL",12091,44,193811,2013
+156,Florida,12,"Orange County, FL",12095,122,1225267,2013
+157,Florida,12,"Osceola County, FL",12097,29,298504,2013
+158,Florida,12,"Palm Beach County, FL",12099,220,1372171,2013
+159,Florida,12,"Pasco County, FL",12101,93,475502,2013
+160,Florida,12,"Pinellas County, FL",12103,171,929048,2013
+161,Florida,12,"Polk County, FL",12105,81,623009,2013
+162,Florida,12,"Putnam County, FL",12107,17,72577,2013
+163,Florida,12,"St. Johns County, FL",12109,43,209647,2013
+164,Florida,12,"St. Lucie County, FL",12111,41,286832,2013
+165,Florida,12,"Santa Rosa County, FL",12113,29,161096,2013
+166,Florida,12,"Sarasota County, FL",12115,86,390429,2013
+167,Florida,12,"Seminole County, FL",12117,60,436041,2013
+168,Florida,12,"Sumter County, FL",12119,24,107056,2013
+169,Florida,12,"Volusia County, FL",12127,106,500800,2013
+170,Florida,12,"Walton County, FL",12131,14,59807,2013
+171,Georgia,13,"Bartow County, GA",13015,15,101273,2013
+172,Georgia,13,"Bibb County, GA",13021,16,154721,2013
+173,Georgia,13,"Bulloch County, GA",13031,10,71214,2013
+174,Georgia,13,"Carroll County, GA",13045,17,112355,2013
+175,Georgia,13,"Chatham County, GA",13051,40,278434,2013
+176,Georgia,13,"Cherokee County, GA",13057,32,225106,2013
+177,Georgia,13,"Clarke County, GA",13059,16,121265,2013
+178,Georgia,13,"Clayton County, GA",13063,19,264220,2013
+179,Georgia,13,"Cobb County, GA",13067,73,717190,2013
+180,Georgia,13,"Columbia County, GA",13073,22,135416,2013
+181,Georgia,13,"Coweta County, GA",13077,20,133180,2013
+182,Georgia,13,"DeKalb County, GA",13089,60,713340,2013
+183,Georgia,13,"Floyd County, GA",13115,12,95821,2013
+184,Georgia,13,"Forsyth County, GA",13117,17,195405,2013
+185,Georgia,13,"Fulton County, GA",13121,124,984293,2013
+186,Georgia,13,"Glynn County, GA",13127,12,81508,2013
+187,Georgia,13,"Gwinnett County, GA",13135,87,859304,2013
+188,Georgia,13,"Hall County, GA",13139,28,187745,2013
+189,Georgia,13,"Henry County, GA",13151,22,211128,2013
+190,Georgia,13,"Houston County, GA",13153,17,147658,2013
+191,Georgia,13,"Liberty County, GA",13179,12,64135,2013
+192,Georgia,13,"Lowndes County, GA",13185,23,112916,2013
+193,Georgia,13,"Murray County, GA",13213,16,39267,2013
+194,Georgia,13,"Muscogee County, GA",13215,34,202824,2013
+195,Georgia,13,"Newton County, GA",13217,13,102446,2013
+196,Georgia,13,"Paulding County, GA",13223,18,146950,2013
+197,Georgia,13,"Polk County, GA",13233,11,41183,2013
+198,Georgia,13,"Richmond County, GA",13245,18,202003,2013
+199,Georgia,13,"Walton County, GA",13297,17,85754,2013
+200,Hawaii,15,"Hawaii County, HI",15001,47,190821,2013
+201,Hawaii,15,"Honolulu County, HI",15003,94,983429,2013
+202,Hawaii,15,"Maui County, HI",15009,26,160202,2013
+203,Idaho,16,"Ada County, ID",16001,61,416464,2013
+204,Idaho,16,"Bannock County, ID",16005,22,83249,2013
+205,Idaho,16,"Bingham County, ID",16011,11,45290,2013
+206,Idaho,16,"Bonneville County, ID",16019,14,107517,2013
+207,Idaho,16,"Canyon County, ID",16027,43,198871,2013
+208,Idaho,16,"Elmore County, ID",16039,10,26170,2013
+209,Idaho,16,"Kootenai County, ID",16055,27,144265,2013
+210,Idaho,16,"Twin Falls County, ID",16083,20,79957,2013
+211,Illinois,17,"Boone County, IL",17007,11,53957,2013
+212,Illinois,17,"Champaign County, IL",17019,21,204897,2013
+213,Illinois,17,"Coles County, IL",17029,10,53697,2013
+214,Illinois,17,"Cook County, IL",17031,446,5240700,2013
+215,Illinois,17,"DuPage County, IL",17043,88,932126,2013
+216,Illinois,17,"Iroquois County, IL",17075,11,28982,2013
+217,Illinois,17,"Kane County, IL",17089,36,523643,2013
+218,Illinois,17,"Knox County, IL",17095,10,52078,2013
+219,Illinois,17,"Lake County, IL",17097,66,703019,2013
+220,Illinois,17,"LaSalle County, IL",17099,20,112183,2013
+221,Illinois,17,"McHenry County, IL",17111,36,307409,2013
+222,Illinois,17,"McLean County, IL",17113,26,174647,2013
+223,Illinois,17,"Macon County, IL",17115,14,109278,2013
+224,Illinois,17,"Madison County, IL",17119,31,267225,2013
+225,Illinois,17,"Ogle County, IL",17141,11,52385,2013
+226,Illinois,17,"Peoria County, IL",17143,28,188429,2013
+227,Illinois,17,"Rock Island County, IL",17161,20,147258,2013
+228,Illinois,17,"St. Clair County, IL",17163,28,266955,2013
+229,Illinois,17,"Sangamon County, IL",17167,31,199145,2013
+230,Illinois,17,"Tazewell County, IL",17179,19,136352,2013
+231,Illinois,17,"Will County, IL",17197,69,682829,2013
+232,Illinois,17,"Williamson County, IL",17199,12,66924,2013
+233,Illinois,17,"Winnebago County, IL",17201,38,290666,2013
+234,Indiana,18,"Allen County, IN",18003,42,363014,2013
+235,Indiana,18,"Bartholomew County, IN",18005,15,79587,2013
+236,Indiana,18,"Clark County, IN",18019,15,112938,2013
+237,Indiana,18,"Delaware County, IN",18035,12,117484,2013
+238,Indiana,18,"Elkhart County, IN",18039,22,200563,2013
+239,Indiana,18,"Floyd County, IN",18043,11,76244,2013
+240,Indiana,18,"Grant County, IN",18053,11,69126,2013
+241,Indiana,18,"Greene County, IN",18055,10,32781,2013
+242,Indiana,18,"Hamilton County, IN",18057,28,296693,2013
+243,Indiana,18,"Hancock County, IN",18059,12,71575,2013
+244,Indiana,18,"Hendricks County, IN",18063,17,153879,2013
+245,Indiana,18,"Johnson County, IN",18081,25,145535,2013
+246,Indiana,18,"Knox County, IN",18083,10,37954,2013
+247,Indiana,18,"Kosciusko County, IN",18085,12,77963,2013
+248,Indiana,18,"Lake County, IN",18089,62,491456,2013
+249,Indiana,18,"La Porte County, IN",18091,20,111281,2013
+250,Indiana,18,"Madison County, IN",18095,20,130482,2013
+251,Indiana,18,"Marion County, IN",18097,150,928281,2013
+252,Indiana,18,"Monroe County, IN",18105,16,141888,2013
+253,Indiana,18,"Morgan County, IN",18109,11,69782,2013
+254,Indiana,18,"Porter County, IN",18127,29,166557,2013
+255,Indiana,18,"St. Joseph County, IN",18141,35,266709,2013
+256,Indiana,18,"Tippecanoe County, IN",18157,25,180174,2013
+257,Indiana,18,"Vanderburgh County, IN",18163,33,181398,2013
+258,Indiana,18,"Vigo County, IN",18167,23,108291,2013
+259,Iowa,19,"Black Hawk County, IA",19013,19,132546,2013
+260,Iowa,19,"Dubuque County, IA",19061,16,95697,2013
+261,Iowa,19,"Jasper County, IA",19099,11,36641,2013
+262,Iowa,19,"Johnson County, IA",19103,16,139155,2013
+263,Iowa,19,"Linn County, IA",19113,35,216111,2013
+264,Iowa,19,"Polk County, IA",19153,53,451677,2013
+265,Iowa,19,"Pottawattamie County, IA",19155,19,92728,2013
+266,Iowa,19,"Scott County, IA",19163,38,170385,2013
+267,Iowa,19,"Story County, IA",19169,10,92406,2013
+268,Iowa,19,"Warren County, IA",19181,10,47336,2013
+269,Iowa,19,"Woodbury County, IA",19193,10,102130,2013
+270,Kansas,20,"Butler County, KS",20015,12,65803,2013
+271,Kansas,20,"Douglas County, KS",20045,14,114322,2013
+272,Kansas,20,"Johnson County, KS",20091,78,566933,2013
+273,Kansas,20,"Leavenworth County, KS",20103,14,78185,2013
+274,Kansas,20,"Sedgwick County, KS",20173,73,505415,2013
+275,Kansas,20,"Shawnee County, KS",20177,31,178831,2013
+276,Kansas,20,"Wyandotte County, KS",20209,18,160384,2013
+277,Kentucky,21,"Boone County, KY",21015,16,124442,2013
+278,Kentucky,21,"Boyd County, KY",21019,10,48886,2013
+279,Kentucky,21,"Christian County, KY",21047,15,74167,2013
+280,Kentucky,21,"Daviess County, KY",21059,17,98218,2013
+281,Kentucky,21,"Fayette County, KY",21067,35,308428,2013
+282,Kentucky,21,"Floyd County, KY",21071,13,38728,2013
+283,Kentucky,21,"Hardin County, KY",21093,16,108191,2013
+284,Kentucky,21,"Henderson County, KY",21101,15,46347,2013
+285,Kentucky,21,"Jefferson County, KY",21111,113,756832,2013
+286,Kentucky,21,"Kenton County, KY",21117,18,163145,2013
+287,Kentucky,21,"McCracken County, KY",21145,13,65373,2013
+288,Kentucky,21,"Madison County, KY",21151,14,85590,2013
+289,Kentucky,21,"Muhlenberg County, KY",21177,10,31179,2013
+290,Kentucky,21,"Pike County, KY",21195,12,63380,2013
+291,Kentucky,21,"Pulaski County, KY",21199,10,63907,2013
+292,Kentucky,21,"Warren County, KY",21227,19,118370,2013
+293,Louisiana,22,"Bossier Parish, LA",22015,21,123823,2013
+294,Louisiana,22,"Caddo Parish, LA",22017,22,254887,2013
+295,Louisiana,22,"Calcasieu Parish, LA",22019,37,195296,2013
+296,Louisiana,22,"East Baton Rouge Parish, LA",22033,46,445227,2013
+297,Louisiana,22,"Jefferson Parish, LA",22051,52,434767,2013
+298,Louisiana,22,"Lafayette Parish, LA",22055,30,230845,2013
+299,Louisiana,22,"Lafourche Parish, LA",22057,16,97141,2013
+300,Louisiana,22,"Livingston Parish, LA",22063,24,134053,2013
+301,Louisiana,22,"Orleans Parish, LA",22071,28,378715,2013
+302,Louisiana,22,"Ouachita Parish, LA",22073,23,156220,2013
+303,Louisiana,22,"Rapides Parish, LA",22079,16,132723,2013
+304,Louisiana,22,"St. Charles Parish, LA",22089,13,52617,2013
+305,Louisiana,22,"St. Landry Parish, LA",22097,15,83454,2013
+306,Louisiana,22,"St. Martin Parish, LA",22099,12,52936,2013
+307,Louisiana,22,"St. Mary Parish, LA",22101,11,53543,2013
+308,Louisiana,22,"St. Tammany Parish, LA",22103,31,242333,2013
+309,Louisiana,22,"Tangipahoa Parish, LA",22105,14,125412,2013
+310,Louisiana,22,"Terrebonne Parish, LA",22109,12,112749,2013
+311,Louisiana,22,"Vermilion Parish, LA",22113,11,59253,2013
+312,Louisiana,22,"Webster Parish, LA",22119,10,40678,2013
+313,Maine,23,"Androscoggin County, ME",23001,16,107604,2013
+314,Maine,23,"Aroostook County, ME",23003,16,70055,2013
+315,Maine,23,"Cumberland County, ME",23005,47,285456,2013
+316,Maine,23,"Kennebec County, ME",23011,15,121164,2013
+317,Maine,23,"Oxford County, ME",23017,17,57277,2013
+318,Maine,23,"Penobscot County, ME",23019,30,153364,2013
+319,Maine,23,"Somerset County, ME",23025,12,51706,2013
+320,Maine,23,"York County, ME",23031,46,199431,2013
+321,Maryland,24,"Anne Arundel County, MD",24003,69,555743,2013
+322,Maryland,24,"Baltimore County, MD",24005,81,823015,2013
+323,Maryland,24,"Calvert County, MD",24009,13,90484,2013
+324,Maryland,24,"Carroll County, MD",24013,25,167564,2013
+325,Maryland,24,"Cecil County, MD",24015,13,101913,2013
+326,Maryland,24,"Charles County, MD",24017,19,152864,2013
+327,Maryland,24,"Frederick County, MD",24021,33,241409,2013
+328,Maryland,24,"Harford County, MD",24025,27,249215,2013
+329,Maryland,24,"Howard County, MD",24027,26,304580,2013
+330,Maryland,24,"Montgomery County, MD",24031,71,1016677,2013
+331,Maryland,24,"Prince George's County, MD",24033,54,890081,2013
+332,Maryland,24,"Queen Anne's County, MD",24035,12,48517,2013
+333,Maryland,24,"St. Mary's County, MD",24037,10,109633,2013
+334,Maryland,24,"Washington County, MD",24043,24,149588,2013
+335,Maryland,24,"Wicomico County, MD",24045,13,100896,2013
+336,Maryland,24,"Baltimore city, MD",24510,46,622104,2013
+337,Massachusetts,25,"Barnstable County, MA",25001,23,214990,2013
+338,Massachusetts,25,"Berkshire County, MA",25003,21,129585,2013
+339,Massachusetts,25,"Bristol County, MA",25005,56,552780,2013
+340,Massachusetts,25,"Essex County, MA",25009,66,762550,2013
+341,Massachusetts,25,"Hampden County, MA",25013,52,467319,2013
+342,Massachusetts,25,"Hampshire County, MA",25015,15,159596,2013
+343,Massachusetts,25,"Middlesex County, MA",25017,116,1552802,2013
+344,Massachusetts,25,"Norfolk County, MA",25021,46,687802,2013
+345,Massachusetts,25,"Plymouth County, MA",25023,43,501915,2013
+346,Massachusetts,25,"Suffolk County, MA",25025,48,755503,2013
+347,Massachusetts,25,"Worcester County, MA",25027,76,809106,2013
+348,Michigan,26,"Barry County, MI",26015,11,59097,2013
+349,Michigan,26,"Bay County, MI",26017,16,106832,2013
+350,Michigan,26,"Berrien County, MI",26021,19,155252,2013
+351,Michigan,26,"Calhoun County, MI",26025,23,135012,2013
+352,Michigan,26,"Cass County, MI",26027,10,51910,2013
+353,Michigan,26,"Eaton County, MI",26045,12,108348,2013
+354,Michigan,26,"Genesee County, MI",26049,53,415376,2013
+355,Michigan,26,"Grand Traverse County, MI",26055,13,89987,2013
+356,Michigan,26,"Ingham County, MI",26065,33,282234,2013
+357,Michigan,26,"Jackson County, MI",26075,25,160369,2013
+358,Michigan,26,"Kalamazoo County, MI",26077,34,256725,2013
+359,Michigan,26,"Kent County, MI",26081,69,621700,2013
+360,Michigan,26,"Lapeer County, MI",26087,16,88389,2013
+361,Michigan,26,"Lenawee County, MI",26091,12,99188,2013
+362,Michigan,26,"Livingston County, MI",26093,30,184443,2013
+363,Michigan,26,"Macomb County, MI",26099,125,854769,2013
+364,Michigan,26,"Midland County, MI",26111,11,83919,2013
+365,Michigan,26,"Monroe County, MI",26115,18,150376,2013
+366,Michigan,26,"Muskegon County, MI",26121,20,171008,2013
+367,Michigan,26,"Oakland County, MI",26125,150,1231640,2013
+368,Michigan,26,"Ottawa County, MI",26139,24,272701,2013
+369,Michigan,26,"Saginaw County, MI",26145,18,196542,2013
+370,Michigan,26,"St. Clair County, MI",26147,22,160469,2013
+371,Michigan,26,"Sanilac County, MI",26151,12,41823,2013
+372,Michigan,26,"Shiawassee County, MI",26155,18,68900,2013
+373,Michigan,26,"Washtenaw County, MI",26161,30,354240,2013
+374,Michigan,26,"Wayne County, MI",26163,211,1775273,2013
+375,Minnesota,27,"Anoka County, MN",27003,52,339534,2013
+376,Minnesota,27,"Beltrami County, MN",27007,13,45670,2013
+377,Minnesota,27,"Carver County, MN",27019,11,95562,2013
+378,Minnesota,27,"Crow Wing County, MN",27035,11,63208,2013
+379,Minnesota,27,"Dakota County, MN",27037,42,408509,2013
+380,Minnesota,27,"Hennepin County, MN",27053,134,1198778,2013
+381,Minnesota,27,"Olmsted County, MN",27109,13,149226,2013
+382,Minnesota,27,"Otter Tail County, MN",27111,19,57581,2013
+383,Minnesota,27,"Polk County, MN",27119,10,31569,2013
+384,Minnesota,27,"Ramsey County, MN",27123,49,526714,2013
+385,Minnesota,27,"St. Louis County, MN",27137,33,200540,2013
+386,Minnesota,27,"Scott County, MN",27139,12,137232,2013
+387,Minnesota,27,"Sherburne County, MN",27141,16,90158,2013
+388,Minnesota,27,"Stearns County, MN",27145,18,152092,2013
+389,Minnesota,27,"Washington County, MN",27163,28,246603,2013
+390,Minnesota,27,"Wright County, MN",27171,15,128470,2013
+391,Mississippi,28,"DeSoto County, MS",28033,19,168240,2013
+392,Mississippi,28,"Forrest County, MS",28035,13,77059,2013
+393,Mississippi,28,"Hancock County, MS",28045,14,45566,2013
+394,Mississippi,28,"Harrison County, MS",28047,34,196500,2013
+395,Mississippi,28,"Hinds County, MS",28049,19,244899,2013
+396,Mississippi,28,"Jackson County, MS",28059,18,140450,2013
+397,Mississippi,28,"Madison County, MS",28089,13,100412,2013
+398,Mississippi,28,"Rankin County, MS",28121,24,146767,2013
+399,Missouri,29,"Boone County, MO",29019,34,170773,2013
+400,Missouri,29,"Buchanan County, MO",29021,17,89631,2013
+401,Missouri,29,"Cape Girardeau County, MO",29031,10,77320,2013
+402,Missouri,29,"Cass County, MO",29037,21,100641,2013
+403,Missouri,29,"Christian County, MO",29043,12,80899,2013
+404,Missouri,29,"Clay County, MO",29047,37,230473,2013
+405,Missouri,29,"Cole County, MO",29051,15,76699,2013
+406,Missouri,29,"Franklin County, MO",29071,20,101816,2013
+407,Missouri,29,"Greene County, MO",29077,44,283870,2013
+408,Missouri,29,"Howell County, MO",29091,14,40393,2013
+409,Missouri,29,"Jackson County, MO",29095,118,679996,2013
+410,Missouri,29,"Jasper County, MO",29097,24,116398,2013
+411,Missouri,29,"Jefferson County, MO",29099,35,221396,2013
+412,Missouri,29,"Platte County, MO",29165,15,93310,2013
+413,Missouri,29,"St. Charles County, MO",29183,52,373495,2013
+414,Missouri,29,"St. Louis County, MO",29189,134,1001444,2013
+415,Missouri,29,"St. Louis city, MO",29510,39,318416,2013
+416,Montana,30,"Cascade County, MT",30013,21,82384,2013
+417,Montana,30,"Flathead County, MT",30029,22,93068,2013
+418,Montana,30,"Gallatin County, MT",30031,19,94720,2013
+419,Montana,30,"Missoula County, MT",30063,26,111807,2013
+420,Montana,30,"Ravalli County, MT",30081,11,40823,2013
+421,Montana,30,"Silver Bow County, MT",30093,11,34523,2013
+422,Montana,30,"Yellowstone County, MT",30111,38,154162,2013
+423,Nebraska,31,"Douglas County, NE",31055,52,537256,2013
+424,Nebraska,31,"Lancaster County, NE",31109,37,297036,2013
+425,Nebraska,31,"Scotts Bluff County, NE",31157,10,36848,2013
+426,Nevada,32,"Clark County, NV",32003,350,2027868,2013
+427,Nevada,32,"Douglas County, NV",32005,11,47118,2013
+428,Nevada,32,"Lyon County, NV",32019,16,51557,2013
+429,Nevada,32,"Nye County, NV",32023,15,42297,2013
+430,Nevada,32,"Washoe County, NV",32031,98,433731,2013
+431,Nevada,32,"Carson City, NV",32510,24,54080,2013
+432,New Hampshire,33,"Cheshire County, NH",33005,11,76610,2013
+433,New Hampshire,33,"Hillsborough County, NH",33011,60,403985,2013
+434,New Hampshire,33,"Merrimack County, NH",33013,21,146849,2013
+435,New Hampshire,33,"Rockingham County, NH",33015,40,299134,2013
+436,New Hampshire,33,"Strafford County, NH",33017,20,124593,2013
+437,New Jersey,34,"Atlantic County, NJ",34001,28,275862,2013
+438,New Jersey,34,"Bergen County, NJ",34003,70,925328,2013
+439,New Jersey,34,"Burlington County, NJ",34005,48,450838,2013
+440,New Jersey,34,"Camden County, NJ",34007,51,512854,2013
+441,New Jersey,34,"Cape May County, NJ",34009,11,95897,2013
+442,New Jersey,34,"Cumberland County, NJ",34011,17,157332,2013
+443,New Jersey,34,"Essex County, NJ",34013,50,789565,2013
+444,New Jersey,34,"Gloucester County, NJ",34015,41,290265,2013
+445,New Jersey,34,"Hudson County, NJ",34017,45,660282,2013
+446,New Jersey,34,"Mercer County, NJ",34021,27,370414,2013
+447,New Jersey,34,"Middlesex County, NJ",34023,53,828919,2013
+448,New Jersey,34,"Monmouth County, NJ",34025,52,629672,2013
+449,New Jersey,34,"Morris County, NJ",34027,45,499397,2013
+450,New Jersey,34,"Ocean County, NJ",34029,72,583414,2013
+451,New Jersey,34,"Passaic County, NJ",34031,36,505672,2013
+452,New Jersey,34,"Salem County, NJ",34033,13,65166,2013
+453,New Jersey,34,"Somerset County, NJ",34035,21,330585,2013
+454,New Jersey,34,"Sussex County, NJ",34037,17,145992,2013
+455,New Jersey,34,"Union County, NJ",34039,36,548256,2013
+456,New Jersey,34,"Warren County, NJ",34041,17,107379,2013
+457,New Mexico,35,"Bernalillo County, NM",35001,139,674221,2013
+458,New Mexico,35,"Chaves County, NM",35005,16,65823,2013
+459,New Mexico,35,"Dona Ana County, NM",35013,25,213460,2013
+460,New Mexico,35,"Lea County, NM",35025,10,68062,2013
+461,New Mexico,35,"McKinley County, NM",35031,15,73308,2013
+462,New Mexico,35,"Otero County, NM",35035,20,65616,2013
+463,New Mexico,35,"Rio Arriba County, NM",35039,12,40072,2013
+464,New Mexico,35,"Sandoval County, NM",35043,24,136575,2013
+465,New Mexico,35,"San Juan County, NM",35045,21,126503,2013
+466,New Mexico,35,"Santa Fe County, NM",35049,33,147423,2013
+467,New Mexico,35,"Taos County, NM",35055,10,33035,2013
+468,New Mexico,35,"Valencia County, NM",35061,23,76284,2013
+469,New York,36,"Albany County, NY",36001,36,306945,2013
+470,New York,36,"Allegany County, NY",36003,11,48109,2013
+471,New York,36,"Bronx County, NY",36005,83,1418733,2013
+472,New York,36,"Broome County, NY",36007,22,197534,2013
+473,New York,36,"Cattaraugus County, NY",36009,13,78892,2013
+474,New York,36,"Cayuga County, NY",36011,11,79477,2013
+475,New York,36,"Chautauqua County, NY",36013,15,133080,2013
+476,New York,36,"Clinton County, NY",36019,12,81591,2013
+477,New York,36,"Dutchess County, NY",36027,41,296916,2013
+478,New York,36,"Erie County, NY",36029,89,919866,2013
+479,New York,36,"Herkimer County, NY",36043,10,64181,2013
+480,New York,36,"Jefferson County, NY",36045,15,119504,2013
+481,New York,36,"Kings County, NY",36047,130,2592149,2013
+482,New York,36,"Livingston County, NY",36051,11,64705,2013
+483,New York,36,"Madison County, NY",36053,10,72382,2013
+484,New York,36,"Monroe County, NY",36055,61,749606,2013
+485,New York,36,"Montgomery County, NY",36057,10,49897,2013
+486,New York,36,"Nassau County, NY",36059,100,1352146,2013
+487,New York,36,"New York County, NY",36061,139,1626159,2013
+488,New York,36,"Niagara County, NY",36063,33,214249,2013
+489,New York,36,"Oneida County, NY",36065,34,233585,2013
+490,New York,36,"Onondaga County, NY",36067,58,468387,2013
+491,New York,36,"Ontario County, NY",36069,14,109103,2013
+492,New York,36,"Orange County, NY",36071,28,375592,2013
+493,New York,36,"Oswego County, NY",36075,17,121165,2013
+494,New York,36,"Otsego County, NY",36077,11,61683,2013
+495,New York,36,"Putnam County, NY",36079,15,99645,2013
+496,New York,36,"Queens County, NY",36081,149,2296175,2013
+497,New York,36,"Rensselaer County, NY",36083,10,159918,2013
+498,New York,36,"Richmond County, NY",36085,32,472621,2013
+499,New York,36,"Rockland County, NY",36087,20,320903,2013
+500,New York,36,"Saratoga County, NY",36091,34,223865,2013
+501,New York,36,"Schenectady County, NY",36093,16,155333,2013
+502,New York,36,"Suffolk County, NY",36103,140,1499738,2013
+503,New York,36,"Sullivan County, NY",36105,14,76665,2013
+504,New York,36,"Tompkins County, NY",36109,19,103617,2013
+505,New York,36,"Ulster County, NY",36111,17,180998,2013
+506,New York,36,"Washington County, NY",36115,11,63093,2013
+507,New York,36,"Wayne County, NY",36117,11,92473,2013
+508,New York,36,"Westchester County, NY",36119,69,968802,2013
+509,North Carolina,37,"Alamance County, NC",37001,21,154378,2013
+510,North Carolina,37,"Beaufort County, NC",37013,10,47464,2013
+511,North Carolina,37,"Brunswick County, NC",37019,19,115301,2013
+512,North Carolina,37,"Buncombe County, NC",37021,62,247912,2013
+513,North Carolina,37,"Burke County, NC",37023,23,89842,2013
+514,North Carolina,37,"Cabarrus County, NC",37025,26,187226,2013
+515,North Carolina,37,"Caldwell County, NC",37027,14,81990,2013
+516,North Carolina,37,"Carteret County, NC",37031,10,68434,2013
+517,North Carolina,37,"Catawba County, NC",37035,21,154810,2013
+518,North Carolina,37,"Cherokee County, NC",37039,11,27218,2013
+519,North Carolina,37,"Craven County, NC",37049,10,104489,2013
+520,North Carolina,37,"Cumberland County, NC",37051,55,325871,2013
+521,North Carolina,37,"Davidson County, NC",37057,25,163420,2013
+522,North Carolina,37,"Davie County, NC",37059,10,41554,2013
+523,North Carolina,37,"Durham County, NC",37063,27,288133,2013
+524,North Carolina,37,"Forsyth County, NC",37067,43,361220,2013
+525,North Carolina,37,"Franklin County, NC",37069,12,62260,2013
+526,North Carolina,37,"Gaston County, NC",37071,26,209420,2013
+527,North Carolina,37,"Guilford County, NC",37081,52,506610,2013
+528,North Carolina,37,"Harnett County, NC",37085,18,124987,2013
+529,North Carolina,37,"Haywood County, NC",37087,13,59183,2013
+530,North Carolina,37,"Henderson County, NC",37089,20,109540,2013
+531,North Carolina,37,"Iredell County, NC",37097,24,164517,2013
+532,North Carolina,37,"Jackson County, NC",37099,10,40919,2013
+533,North Carolina,37,"Johnston County, NC",37101,19,177967,2013
+534,North Carolina,37,"Lincoln County, NC",37109,11,79740,2013
+535,North Carolina,37,"Mecklenburg County, NC",37119,81,990977,2013
+536,North Carolina,37,"Moore County, NC",37125,11,91587,2013
+537,North Carolina,37,"Nash County, NC",37127,11,95093,2013
+538,North Carolina,37,"New Hanover County, NC",37129,22,213267,2013
+539,North Carolina,37,"Onslow County, NC",37133,37,185220,2013
+540,North Carolina,37,"Orange County, NC",37135,10,140352,2013
+541,North Carolina,37,"Pender County, NC",37141,10,55334,2013
+542,North Carolina,37,"Pitt County, NC",37147,17,174263,2013
+543,North Carolina,37,"Randolph County, NC",37151,24,142577,2013
+544,North Carolina,37,"Robeson County, NC",37155,16,134841,2013
+545,North Carolina,37,"Rowan County, NC",37159,24,138323,2013
+546,North Carolina,37,"Rutherford County, NC",37161,15,66956,2013
+547,North Carolina,37,"Stanly County, NC",37167,18,60635,2013
+548,North Carolina,37,"Surry County, NC",37171,11,73050,2013
+549,North Carolina,37,"Union County, NC",37179,23,212756,2013
+550,North Carolina,37,"Wake County, NC",37183,84,974289,2013
+551,North Carolina,37,"Wayne County, NC",37191,18,124583,2013
+552,North Carolina,37,"Wilkes County, NC",37193,12,69023,2013
+553,North Carolina,37,"Wilson County, NC",37195,14,81667,2013
+554,North Dakota,38,"Burleigh County, ND",38015,14,88457,2013
+555,North Dakota,38,"Cass County, ND",38017,17,162829,2013
+556,North Dakota,38,"Ward County, ND",38101,16,67990,2013
+557,Ohio,39,"Ashtabula County, OH",39007,20,99811,2013
+558,Ohio,39,"Belmont County, OH",39013,13,69571,2013
+559,Ohio,39,"Brown County, OH",39015,10,44264,2013
+560,Ohio,39,"Butler County, OH",39017,37,371272,2013
+561,Ohio,39,"Clark County, OH",39023,19,136167,2013
+562,Ohio,39,"Clermont County, OH",39025,36,200218,2013
+563,Ohio,39,"Columbiana County, OH",39029,20,105893,2013
+564,Ohio,39,"Coshocton County, OH",39031,10,36760,2013
+565,Ohio,39,"Cuyahoga County, OH",39035,155,1263154,2013
+566,Ohio,39,"Delaware County, OH",39041,15,184979,2013
+567,Ohio,39,"Erie County, OH",39043,10,76048,2013
+568,Ohio,39,"Fairfield County, OH",39045,19,148867,2013
+569,Ohio,39,"Franklin County, OH",39049,132,1212263,2013
+570,Ohio,39,"Greene County, OH",39057,25,163204,2013
+571,Ohio,39,"Hamilton County, OH",39061,107,804520,2013
+572,Ohio,39,"Highland County, OH",39071,10,43299,2013
+573,Ohio,39,"Hocking County, OH",39073,10,28665,2013
+574,Ohio,39,"Huron County, OH",39077,12,58889,2013
+575,Ohio,39,"Lake County, OH",39085,34,229857,2013
+576,Ohio,39,"Lawrence County, OH",39087,14,61917,2013
+577,Ohio,39,"Licking County, OH",39089,25,168375,2013
+578,Ohio,39,"Lorain County, OH",39093,55,302827,2013
+579,Ohio,39,"Lucas County, OH",39095,49,436393,2013
+580,Ohio,39,"Mahoning County, OH",39099,32,233869,2013
+581,Ohio,39,"Medina County, OH",39103,14,174915,2013
+582,Ohio,39,"Miami County, OH",39109,16,103439,2013
+583,Ohio,39,"Montgomery County, OH",39113,80,535846,2013
+584,Ohio,39,"Muskingum County, OH",39119,13,85231,2013
+585,Ohio,39,"Ottawa County, OH",39123,10,41153,2013
+586,Ohio,39,"Pickaway County, OH",39129,11,56304,2013
+587,Ohio,39,"Portage County, OH",39133,19,163862,2013
+588,Ohio,39,"Richland County, OH",39139,16,121773,2013
+589,Ohio,39,"Ross County, OH",39141,14,77910,2013
+590,Ohio,39,"Stark County, OH",39151,66,375432,2013
+591,Ohio,39,"Summit County, OH",39153,72,541824,2013
+592,Ohio,39,"Trumbull County, OH",39155,27,206442,2013
+593,Ohio,39,"Tuscarawas County, OH",39157,14,92672,2013
+594,Ohio,39,"Warren County, OH",39165,20,219169,2013
+595,Ohio,39,"Wayne County, OH",39169,16,115071,2013
+596,Ohio,39,"Wood County, OH",39173,17,129264,2013
+597,Oklahoma,40,"Canadian County, OK",40017,14,126123,2013
+598,Oklahoma,40,"Carter County, OK",40019,11,48491,2013
+599,Oklahoma,40,"Cherokee County, OK",40021,10,48017,2013
+600,Oklahoma,40,"Cleveland County, OK",40027,40,269340,2013
+601,Oklahoma,40,"Comanche County, OK",40031,24,124937,2013
+602,Oklahoma,40,"Creek County, OK",40037,15,70470,2013
+603,Oklahoma,40,"Garfield County, OK",40047,14,62267,2013
+604,Oklahoma,40,"Grady County, OK",40051,11,53685,2013
+605,Oklahoma,40,"Kay County, OK",40071,10,45633,2013
+606,Oklahoma,40,"McCurtain County, OK",40089,13,33065,2013
+607,Oklahoma,40,"Muskogee County, OK",40101,12,70303,2013
+608,Oklahoma,40,"Oklahoma County, OK",40109,121,755245,2013
+609,Oklahoma,40,"Pittsburg County, OK",40121,12,44703,2013
+610,Oklahoma,40,"Pottawatomie County, OK",40125,18,71158,2013
+611,Oklahoma,40,"Rogers County, OK",40131,15,89044,2013
+612,Oklahoma,40,"Stephens County, OK",40137,12,44919,2013
+613,Oklahoma,40,"Tulsa County, OK",40143,105,622409,2013
+614,Oklahoma,40,"Wagoner County, OK",40145,13,75700,2013
+615,Oregon,41,"Benton County, OR",41003,12,86591,2013
+616,Oregon,41,"Clackamas County, OR",41005,54,388263,2013
+617,Oregon,41,"Clatsop County, OR",41007,13,37244,2013
+618,Oregon,41,"Columbia County, OR",41009,15,49344,2013
+619,Oregon,41,"Coos County, OR",41011,21,62282,2013
+620,Oregon,41,"Curry County, OR",41015,14,22339,2013
+621,Oregon,41,"Deschutes County, OR",41017,25,165954,2013
+622,Oregon,41,"Douglas County, OR",41019,34,106940,2013
+623,Oregon,41,"Jackson County, OR",41029,54,208545,2013
+624,Oregon,41,"Josephine County, OR",41033,25,83306,2013
+625,Oregon,41,"Klamath County, OR",41035,12,65910,2013
+626,Oregon,41,"Lane County, OR",41039,74,356212,2013
+627,Oregon,41,"Lincoln County, OR",41041,13,46350,2013
+628,Oregon,41,"Linn County, OR",41043,19,118765,2013
+629,Oregon,41,"Marion County, OR",41047,33,323614,2013
+630,Oregon,41,"Multnomah County, OR",41051,138,766135,2013
+631,Oregon,41,"Umatilla County, OR",41059,14,76720,2013
+632,Oregon,41,"Washington County, OR",41067,69,554996,2013
+633,Oregon,41,"Yamhill County, OR",41071,14,100725,2013
+634,Pennsylvania,42,"Adams County, PA",42001,23,101546,2013
+635,Pennsylvania,42,"Allegheny County, PA",42003,168,1231527,2013
+636,Pennsylvania,42,"Armstrong County, PA",42005,10,68107,2013
+637,Pennsylvania,42,"Beaver County, PA",42007,21,170115,2013
+638,Pennsylvania,42,"Berks County, PA",42011,78,413521,2013
+639,Pennsylvania,42,"Blair County, PA",42013,23,126314,2013
+640,Pennsylvania,42,"Bradford County, PA",42015,12,62316,2013
+641,Pennsylvania,42,"Bucks County, PA",42017,81,626976,2013
+642,Pennsylvania,42,"Butler County, PA",42019,22,185476,2013
+643,Pennsylvania,42,"Cambria County, PA",42021,26,140499,2013
+644,Pennsylvania,42,"Centre County, PA",42027,13,155403,2013
+645,Pennsylvania,42,"Chester County, PA",42029,54,509468,2013
+646,Pennsylvania,42,"Crawford County, PA",42039,16,87376,2013
+647,Pennsylvania,42,"Cumberland County, PA",42041,38,241212,2013
+648,Pennsylvania,42,"Dauphin County, PA",42043,44,270937,2013
+649,Pennsylvania,42,"Delaware County, PA",42045,74,561973,2013
+650,Pennsylvania,42,"Erie County, PA",42049,45,280294,2013
+651,Pennsylvania,42,"Fayette County, PA",42051,31,134999,2013
+652,Pennsylvania,42,"Franklin County, PA",42055,14,152085,2013
+653,Pennsylvania,42,"Indiana County, PA",42063,11,87745,2013
+654,Pennsylvania,42,"Lackawanna County, PA",42069,34,213931,2013
+655,Pennsylvania,42,"Lancaster County, PA",42071,52,529600,2013
+656,Pennsylvania,42,"Lawrence County, PA",42073,12,89333,2013
+657,Pennsylvania,42,"Lebanon County, PA",42075,23,135486,2013
+658,Pennsylvania,42,"Lehigh County, PA",42077,52,355092,2013
+659,Pennsylvania,42,"Luzerne County, PA",42079,50,320103,2013
+660,Pennsylvania,42,"Lycoming County, PA",42081,21,116754,2013
+661,Pennsylvania,42,"Mercer County, PA",42085,18,115195,2013
+662,Pennsylvania,42,"Monroe County, PA",42089,35,167148,2013
+663,Pennsylvania,42,"Montgomery County, PA",42091,90,812376,2013
+664,Pennsylvania,42,"Northampton County, PA",42095,34,299791,2013
+665,Pennsylvania,42,"Northumberland County, PA",42097,14,94076,2013
+666,Pennsylvania,42,"Philadelphia County, PA",42101,156,1553165,2013
+667,Pennsylvania,42,"Pike County, PA",42103,12,56591,2013
+668,Pennsylvania,42,"Schuylkill County, PA",42107,34,146920,2013
+669,Pennsylvania,42,"Somerset County, PA",42111,14,76520,2013
+670,Pennsylvania,42,"Susquehanna County, PA",42115,14,42286,2013
+671,Pennsylvania,42,"Washington County, PA",42125,33,208206,2013
+672,Pennsylvania,42,"Wayne County, PA",42127,14,51548,2013
+673,Pennsylvania,42,"Westmoreland County, PA",42129,57,362437,2013
+674,Pennsylvania,42,"York County, PA",42133,70,438965,2013
+675,Rhode Island,44,"Bristol County, RI",44001,11,49220,2013
+676,Rhode Island,44,"Kent County, RI",44003,20,165035,2013
+677,Rhode Island,44,"Providence County, RI",44007,67,628600,2013
+678,Rhode Island,44,"Washington County, RI",44009,25,126259,2013
+679,South Carolina,45,"Aiken County, SC",45003,26,164176,2013
+680,South Carolina,45,"Anderson County, SC",45007,34,190641,2013
+681,South Carolina,45,"Beaufort County, SC",45013,25,171838,2013
+682,South Carolina,45,"Berkeley County, SC",45015,32,194020,2013
+683,South Carolina,45,"Charleston County, SC",45019,46,372803,2013
+684,South Carolina,45,"Cherokee County, SC",45021,10,55885,2013
+685,South Carolina,45,"Darlington County, SC",45031,16,67935,2013
+686,South Carolina,45,"Dorchester County, SC",45035,21,145397,2013
+687,South Carolina,45,"Florence County, SC",45041,13,138326,2013
+688,South Carolina,45,"Georgetown County, SC",45043,15,60440,2013
+689,South Carolina,45,"Greenville County, SC",45045,85,474266,2013
+690,South Carolina,45,"Horry County, SC",45051,43,289650,2013
+691,South Carolina,45,"Lancaster County, SC",45057,10,80458,2013
+692,South Carolina,45,"Laurens County, SC",45059,19,66229,2013
+693,South Carolina,45,"Lexington County, SC",45063,34,273752,2013
+694,South Carolina,45,"Orangeburg County, SC",45075,15,90942,2013
+695,South Carolina,45,"Pickens County, SC",45077,18,119829,2013
+696,South Carolina,45,"Richland County, SC",45079,51,399256,2013
+697,South Carolina,45,"Spartanburg County, SC",45083,42,290969,2013
+698,South Carolina,45,"York County, SC",45091,40,239363,2013
+699,South Dakota,46,"Meade County, SD",46093,13,27202,2013
+700,South Dakota,46,"Minnehaha County, SD",46099,29,179640,2013
+701,South Dakota,46,"Pennington County, SD",46103,12,105761,2013
+702,Tennessee,47,"Anderson County, TN",47001,20,75542,2013
+703,Tennessee,47,"Blount County, TN",47009,25,125099,2013
+704,Tennessee,47,"Bradley County, TN",47011,13,101848,2013
+705,Tennessee,47,"Carter County, TN",47019,14,57338,2013
+706,Tennessee,47,"Claiborne County, TN",47025,10,31560,2013
+707,Tennessee,47,"Coffee County, TN",47031,15,53357,2013
+708,Tennessee,47,"Davidson County, TN",47037,92,658602,2013
+709,Tennessee,47,"Dickson County, TN",47043,16,50266,2013
+710,Tennessee,47,"Gibson County, TN",47053,10,49457,2013
+711,Tennessee,47,"Giles County, TN",47055,11,28746,2013
+712,Tennessee,47,"Greene County, TN",47059,13,68267,2013
+713,Tennessee,47,"Hamblen County, TN",47063,17,63074,2013
+714,Tennessee,47,"Hamilton County, TN",47065,54,348673,2013
+715,Tennessee,47,"Hawkins County, TN",47073,12,56800,2013
+716,Tennessee,47,"Knox County, TN",47093,58,444622,2013
+717,Tennessee,47,"McMinn County, TN",47107,10,52341,2013
+718,Tennessee,47,"McNairy County, TN",47109,10,26140,2013
+719,Tennessee,47,"Madison County, TN",47113,12,98733,2013
+720,Tennessee,47,"Maury County, TN",47119,13,83761,2013
+721,Tennessee,47,"Montgomery County, TN",47125,21,184119,2013
+722,Tennessee,47,"Overton County, TN",47133,11,22075,2013
+723,Tennessee,47,"Putnam County, TN",47141,13,73525,2013
+724,Tennessee,47,"Roane County, TN",47145,15,53047,2013
+725,Tennessee,47,"Robertson County, TN",47147,14,67383,2013
+726,Tennessee,47,"Rutherford County, TN",47149,26,281029,2013
+727,Tennessee,47,"Sevier County, TN",47155,16,93570,2013
+728,Tennessee,47,"Shelby County, TN",47157,91,939465,2013
+729,Tennessee,47,"Sullivan County, TN",47163,28,156595,2013
+730,Tennessee,47,"Sumner County, TN",47165,33,168888,2013
+731,Tennessee,47,"Washington County, TN",47179,16,125546,2013
+732,Tennessee,47,"Weakley County, TN",47183,10,34450,2013
+733,Tennessee,47,"White County, TN",47185,10,26244,2013
+734,Tennessee,47,"Williamson County, TN",47187,26,198901,2013
+735,Tennessee,47,"Wilson County, TN",47189,12,121945,2013
+736,Texas,48,"Bastrop County, TX",48021,19,75825,2013
+737,Texas,48,"Bell County, TX",48027,39,326843,2013
+738,Texas,48,"Bexar County, TX",48029,187,1817610,2013
+739,Texas,48,"Bowie County, TX",48037,18,93487,2013
+740,Texas,48,"Brazoria County, TX",48039,43,330242,2013
+741,Texas,48,"Brazos County, TX",48041,17,203164,2013
+742,Texas,48,"Cameron County, TX",48061,29,417276,2013
+743,Texas,48,"Chambers County, TX",48071,15,36812,2013
+744,Texas,48,"Collin County, TX",48085,117,854778,2013
+745,Texas,48,"Comal County, TX",48091,15,118480,2013
+746,Texas,48,"Cooke County, TX",48097,13,38467,2013
+747,Texas,48,"Coryell County, TX",48099,12,76192,2013
+748,Texas,48,"Dallas County, TX",48113,241,2480331,2013
+749,Texas,48,"Denton County, TX",48121,67,728799,2013
+750,Texas,48,"Ector County, TX",48135,18,149378,2013
+751,Texas,48,"Ellis County, TX",48139,20,155976,2013
+752,Texas,48,"El Paso County, TX",48141,82,827718,2013
+753,Texas,48,"Fannin County, TX",48147,10,33659,2013
+754,Texas,48,"Fort Bend County, TX",48157,49,652365,2013
+755,Texas,48,"Galveston County, TX",48167,36,306782,2013
+756,Texas,48,"Grayson County, TX",48181,14,122353,2013
+757,Texas,48,"Gregg County, TX",48183,21,123024,2013
+758,Texas,48,"Guadalupe County, TX",48187,16,143183,2013
+759,Texas,48,"Harris County, TX",48201,409,4336853,2013
+760,Texas,48,"Hays County, TX",48209,17,176026,2013
+761,Texas,48,"Henderson County, TX",48213,12,78675,2013
+762,Texas,48,"Hidalgo County, TX",48215,42,815996,2013
+763,Texas,48,"Hood County, TX",48221,12,52905,2013
+764,Texas,48,"Hunt County, TX",48231,15,87048,2013
+765,Texas,48,"Jefferson County, TX",48245,23,252358,2013
+766,Texas,48,"Johnson County, TX",48251,31,154707,2013
+767,Texas,48,"Liberty County, TX",48291,11,76907,2013
+768,Texas,48,"Lubbock County, TX",48303,42,289324,2013
+769,Texas,48,"McLennan County, TX",48309,30,241481,2013
+770,Texas,48,"Midland County, TX",48329,24,151468,2013
+771,Texas,48,"Montgomery County, TX",48339,77,499137,2013
+772,Texas,48,"Nacogdoches County, TX",48347,10,65330,2013
+773,Texas,48,"Nueces County, TX",48355,45,352107,2013
+774,Texas,48,"Orange County, TX",48361,20,82957,2013
+775,Texas,48,"Parker County, TX",48367,13,121418,2013
+776,Texas,48,"Potter County, TX",48375,22,121661,2013
+777,Texas,48,"Randall County, TX",48381,13,126474,2013
+778,Texas,48,"Rockwall County, TX",48397,15,85245,2013
+779,Texas,48,"San Patricio County, TX",48409,10,66137,2013
+780,Texas,48,"Smith County, TX",48423,31,216080,2013
+781,Texas,48,"Tarrant County, TX",48439,209,1911541,2013
+782,Texas,48,"Taylor County, TX",48441,23,134117,2013
+783,Texas,48,"Tom Green County, TX",48451,19,114954,2013
+784,Texas,48,"Travis County, TX",48453,138,1120954,2013
+785,Texas,48,"Upshur County, TX",48459,10,39884,2013
+786,Texas,48,"Van Zandt County, TX",48467,14,52481,2013
+787,Texas,48,"Victoria County, TX",48469,17,90028,2013
+788,Texas,48,"Walker County, TX",48471,13,68817,2013
+789,Texas,48,"Webb County, TX",48479,17,262495,2013
+790,Texas,48,"Wichita County, TX",48485,24,132047,2013
+791,Texas,48,"Williamson County, TX",48491,53,471014,2013
+792,Utah,49,"Cache County, UT",49005,15,116909,2013
+793,Utah,49,"Carbon County, UT",49007,13,20988,2013
+794,Utah,49,"Davis County, UT",49011,50,322094,2013
+795,Utah,49,"Salt Lake County, UT",49035,223,1079721,2013
+796,Utah,49,"Tooele County, UT",49045,11,60762,2013
+797,Utah,49,"Utah County, UT",49049,83,551891,2013
+798,Utah,49,"Washington County, UT",49053,38,147800,2013
+799,Utah,49,"Weber County, UT",49057,62,238519,2013
+800,Vermont,50,"Chittenden County, VT",50007,17,159515,2013
+801,Vermont,50,"Franklin County, VT",50011,11,48294,2013
+802,Vermont,50,"Rutland County, VT",50021,13,60622,2013
+803,Vermont,50,"Washington County, VT",50023,16,59319,2013
+804,Vermont,50,"Windsor County, VT",50027,10,56067,2013
+805,Virginia,51,"Albemarle County, VA",51003,13,103000,2013
+806,Virginia,51,"Arlington County, VA",51013,17,224906,2013
+807,Virginia,51,"Augusta County, VA",51015,24,73912,2013
+808,Virginia,51,"Campbell County, VA",51031,13,55235,2013
+809,Virginia,51,"Chesterfield County, VA",51041,49,327745,2013
+810,Virginia,51,"Fairfax County, VA",51059,119,1130924,2013
+811,Virginia,51,"Fauquier County, VA",51061,15,67207,2013
+812,Virginia,51,"Frederick County, VA",51069,11,81319,2013
+813,Virginia,51,"Hanover County, VA",51085,18,101330,2013
+814,Virginia,51,"Henrico County, VA",51087,40,318611,2013
+815,Virginia,51,"Henry County, VA",51089,11,52617,2013
+816,Virginia,51,"Loudoun County, VA",51107,34,349679,2013
+817,Virginia,51,"Patrick County, VA",51141,12,18368,2013
+818,Virginia,51,"Pittsylvania County, VA",51143,16,62426,2013
+819,Virginia,51,"Prince William County, VA",51153,43,438580,2013
+820,Virginia,51,"Roanoke County, VA",51161,12,93524,2013
+821,Virginia,51,"Smyth County, VA",51173,10,31652,2013
+822,Virginia,51,"Spotsylvania County, VA",51177,12,127348,2013
+823,Virginia,51,"Stafford County, VA",51179,20,136788,2013
+824,Virginia,51,"Alexandria city, VA",51510,12,148892,2013
+825,Virginia,51,"Chesapeake city, VA",51550,29,230571,2013
+826,Virginia,51,"Clifton Forge city, VA",51560,Missing,Missing,2013
+827,Virginia,51,"Hampton city, VA",51650,16,136699,2013
+828,Virginia,51,"Newport News city, VA",51700,20,182020,2013
+829,Virginia,51,"Norfolk city, VA",51710,29,246139,2013
+830,Virginia,51,"Portsmouth city, VA",51740,10,96205,2013
+831,Virginia,51,"Richmond city, VA",51760,28,214114,2013
+832,Virginia,51,"Roanoke city, VA",51770,17,98465,2013
+833,Virginia,51,"Suffolk city, VA",51800,13,85728,2013
+834,Virginia,51,"Virginia Beach city, VA",51810,46,448479,2013
+835,Washington,53,"Benton County, WA",53005,18,184486,2013
+836,Washington,53,"Chelan County, WA",53007,10,73967,2013
+837,Washington,53,"Clallam County, WA",53009,14,72312,2013
+838,Washington,53,"Clark County, WA",53011,65,443817,2013
+839,Washington,53,"Cowlitz County, WA",53015,19,101860,2013
+840,Washington,53,"Grant County, WA",53025,15,91878,2013
+841,Washington,53,"Grays Harbor County, WA",53027,12,71078,2013
+842,Washington,53,"Island County, WA",53029,17,78801,2013
+843,Washington,53,"King County, WA",53033,255,2044449,2013
+844,Washington,53,"Kitsap County, WA",53035,35,253968,2013
+845,Washington,53,"Lewis County, WA",53041,10,75081,2013
+846,Washington,53,"Mason County, WA",53045,11,60497,2013
+847,Washington,53,"Pierce County, WA",53053,137,819743,2013
+848,Washington,53,"Skagit County, WA",53057,23,118837,2013
+849,Washington,53,"Snohomish County, WA",53061,92,745913,2013
+850,Washington,53,"Spokane County, WA",53063,97,479398,2013
+851,Washington,53,"Stevens County, WA",53065,11,43430,2013
+852,Washington,53,"Thurston County, WA",53067,46,262388,2013
+853,Washington,53,"Whatcom County, WA",53073,43,206353,2013
+854,Washington,53,"Yakima County, WA",53077,27,247044,2013
+855,West Virginia,54,"Berkeley County, WV",54003,17,108706,2013
+856,West Virginia,54,"Kanawha County, WV",54039,43,191275,2013
+857,West Virginia,54,"McDowell County, WV",54047,10,20876,2013
+858,West Virginia,54,"Mercer County, WV",54055,18,61984,2013
+859,West Virginia,54,"Monongalia County, WV",54061,10,102274,2013
+860,West Virginia,54,"Raleigh County, WV",54081,18,78833,2013
+861,West Virginia,54,"Wayne County, WV",54099,10,41437,2013
+862,West Virginia,54,"Wood County, WV",54107,16,86569,2013
+863,Wisconsin,55,"Brown County, WI",55009,42,254586,2013
+864,Wisconsin,55,"Chippewa County, WI",55017,13,63132,2013
+865,Wisconsin,55,"Columbia County, WI",55021,15,56653,2013
+866,Wisconsin,55,"Dane County, WI",55025,64,509939,2013
+867,Wisconsin,55,"Dodge County, WI",55027,11,88344,2013
+868,Wisconsin,55,"Eau Claire County, WI",55035,18,101438,2013
+869,Wisconsin,55,"Fond du Lac County, WI",55039,10,101798,2013
+870,Wisconsin,55,"Kenosha County, WI",55059,23,167757,2013
+871,Wisconsin,55,"La Crosse County, WI",55063,18,116713,2013
+872,Wisconsin,55,"Manitowoc County, WI",55071,15,80654,2013
+873,Wisconsin,55,"Marathon County, WI",55073,16,135416,2013
+874,Wisconsin,55,"Milwaukee County, WI",55079,107,956023,2013
+875,Wisconsin,55,"Outagamie County, WI",55087,31,180345,2013
+876,Wisconsin,55,"Ozaukee County, WI",55089,12,87054,2013
+877,Wisconsin,55,"Portage County, WI",55097,14,70380,2013
+878,Wisconsin,55,"Racine County, WI",55101,27,195041,2013
+879,Wisconsin,55,"Rock County, WI",55105,21,160739,2013
+880,Wisconsin,55,"St. Croix County, WI",55109,11,85930,2013
+881,Wisconsin,55,"Sheboygan County, WI",55117,17,114922,2013
+882,Wisconsin,55,"Walworth County, WI",55127,16,102945,2013
+883,Wisconsin,55,"Washington County, WI",55131,27,132739,2013
+884,Wisconsin,55,"Waukesha County, WI",55133,57,393843,2013
+885,Wisconsin,55,"Waupaca County, WI",55135,12,52285,2013
+886,Wisconsin,55,"Winnebago County, WI",55139,30,169541,2013
+887,Wisconsin,55,"Wood County, WI",55141,17,73959,2013
+888,Wyoming,56,"Campbell County, WY",56005,14,48176,2013
+889,Wyoming,56,"Laramie County, WY",56021,15,95809,2013
+890,Wyoming,56,"Natrona County, WY",56025,19,80973,2013
+891,Wyoming,56,"Park County, WY",56029,11,29227,2013
+892,Wyoming,56,"Sheridan County, WY",56033,11,29824,2013
+893,Wyoming,56,"Sweetwater County, WY",56037,13,45237,2013
