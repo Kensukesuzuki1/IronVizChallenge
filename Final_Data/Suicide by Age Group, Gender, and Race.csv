@@ -1,0 +1,464 @@
+﻿Notes,Five-Year Age Groups,Gender,Race,Deaths,Population
+,5-9 years,Female,American Indian or Alaska Native,1,3380507
+,5-9 years,Female,Asian or Pacific Islander,2,10705056
+,5-9 years,Female,Black or African American,8,32822858
+,5-9 years,Female,White,7,149963708
+Total,5-9 years,Female,,18,196872129
+,5-9 years,Male,American Indian or Alaska Native,1,3481599
+,5-9 years,Male,Asian or Pacific Islander,1,10946786
+,5-9 years,Male,Black or African American,29,33914239
+,5-9 years,Male,White,55,157487937
+Total,5-9 years,Male,,86,205830561
+Total,5-9 years,,,104,402702690
+,10-14 years,Female,American Indian or Alaska Native,106,3491561
+,10-14 years,Female,Asian or Pacific Islander,76,10556756
+,10-14 years,Female,Black or African American,254,33899252
+,10-14 years,Female,White,1550,155515944
+Total,10-14 years,Female,,1986,203463513
+,10-14 years,Male,American Indian or Alaska Native,122,3572370
+,10-14 years,Male,Asian or Pacific Islander,134,10881927
+,10-14 years,Male,Black or African American,647,35029429
+,10-14 years,Male,White,3476,163587075
+Total,10-14 years,Male,,4379,213070801
+Total,10-14 years,,,6365,416534314
+,15-19 years,Female,American Indian or Alaska Native,320,3464707
+,15-19 years,Female,Asian or Pacific Islander,364,10808503
+,15-19 years,Female,Black or African American,690,34251726
+,15-19 years,Female,White,5885,158207466
+Total,15-19 years,Female,,7259,206732402
+,15-19 years,Male,American Indian or Alaska Native,879,3642660
+,15-19 years,Male,Asian or Pacific Islander,883,11231785
+,15-19 years,Male,Black or African American,2743,35366190
+,15-19 years,Male,White,23606,167802738
+Total,15-19 years,Male,,28111,218043373
+Total,15-19 years,,,35370,424775775
+,20-24 years,Female,American Indian or Alaska Native,294,3228839
+,20-24 years,Female,Asian or Pacific Islander,603,12555668
+,20-24 years,Female,Black or African American,995,33571705
+,20-24 years,Female,White,7347,158565750
+Total,20-24 years,Female,,9239,207921962
+,20-24 years,Male,American Indian or Alaska Native,1184,3498595
+,20-24 years,Male,Asian or Pacific Islander,1769,12794339
+,20-24 years,Male,Black or African American,5828,33449591
+,20-24 years,Male,White,39939,168111266
+Total,20-24 years,Male,,48720,217853791
+Total,20-24 years,,,57959,425775753
+,25-29 years,Female,American Indian or Alaska Native,264,2972509
+,25-29 years,Female,Asian or Pacific Islander,583,14693801
+,25-29 years,Female,Black or African American,946,31611306
+,25-29 years,Female,White,8839,156462996
+Total,25-29 years,Female,,10632,205740612
+,25-29 years,Male,American Indian or Alaska Native,991,3202976
+,25-29 years,Male,Asian or Pacific Islander,1643,13915941
+,25-29 years,Male,Black or African American,5185,29604903
+,25-29 years,Male,White,40059,163682362
+Total,25-29 years,Male,,47878,210406182
+Total,25-29 years,,,58510,416146794
+,30-34 years,Female,American Indian or Alaska Native,227,2829698
+,30-34 years,Female,Asian or Pacific Islander,603,14932929
+,30-34 years,Female,Black or African American,867,30264492
+,30-34 years,Female,White,10354,156957047
+Total,30-34 years,Female,,12051,204984166
+,30-34 years,Male,American Indian or Alaska Native,790,2958832
+,30-34 years,Male,Asian or Pacific Islander,1382,13729233
+,30-34 years,Male,Black or African American,4293,27449136
+,30-34 years,Male,White,40254,162811341
+Total,30-34 years,Male,,46719,206948542
+Total,30-34 years,,,58770,411932708
+,35-39 years,Female,American Indian or Alaska Native,200,2758946
+,35-39 years,Female,Asian or Pacific Islander,531,14326535
+,35-39 years,Female,Black or African American,821,30252666
+,35-39 years,Female,White,12632,162348789
+Total,35-39 years,Female,,14184,209686936
+,35-39 years,Male,American Indian or Alaska Native,726,2810496
+,35-39 years,Male,Asian or Pacific Islander,1250,12979956
+,35-39 years,Male,Black or African American,3793,26987781
+,35-39 years,Male,White,43929,166010668
+Total,35-39 years,Male,,49698,208788901
+Total,35-39 years,,,63882,418475837
+,40-44 years,Female,American Indian or Alaska Native,188,2680915
+,40-44 years,Female,Asian or Pacific Islander,504,13431328
+,40-44 years,Female,Black or African American,945,30196551
+,40-44 years,Female,White,15621,169754617
+Total,40-44 years,Female,,17258,216063411
+,40-44 years,Male,American Indian or Alaska Native,591,2679487
+,40-44 years,Male,Asian or Pacific Islander,1131,12035100
+,40-44 years,Male,Black or African American,3268,26789836
+,40-44 years,Male,White,48883,171448281
+Total,40-44 years,Male,,53873,212952704
+Total,40-44 years,,,71131,429016115
+,45-49 years,Female,American Indian or Alaska Native,161,2548792
+,45-49 years,Female,Asian or Pacific Islander,547,12271450
+,45-49 years,Female,Black or African American,787,29315530
+,45-49 years,Female,White,17841,174166521
+Total,45-49 years,Female,,19336,218302293
+,45-49 years,Male,American Indian or Alaska Native,486,2498430
+,45-49 years,Male,Asian or Pacific Islander,1141,10849561
+,45-49 years,Male,Black or African American,2812,25897688
+,45-49 years,Male,White,53263,173728167
+Total,45-49 years,Male,,57702,212973846
+Total,45-49 years,,,77038,431276139
+,50-54 years,Female,American Indian or Alaska Native,121,2313613
+,50-54 years,Female,Asian or Pacific Islander,506,10953382
+,50-54 years,Female,Black or African American,676,27104234
+,50-54 years,Female,White,18042,171251146
+Total,50-54 years,Female,,19345,211622375
+,50-54 years,Male,American Indian or Alaska Native,380,2212931
+,50-54 years,Male,Asian or Pacific Islander,1020,9500632
+,50-54 years,Male,Black or African American,2339,23639544
+,50-54 years,Male,White,53121,168083564
+Total,50-54 years,Male,,56860,203436671
+Total,50-54 years,,,76205,415059046
+,55-59 years,Female,American Indian or Alaska Native,74,1905726
+,55-59 years,Female,Asian or Pacific Islander,354,9334364
+,55-59 years,Female,Black or African American,495,23030128
+,55-59 years,Female,White,15033,157145909
+Total,55-59 years,Female,,15956,191416127
+,55-59 years,Male,American Indian or Alaska Native,262,1783732
+,55-59 years,Male,Asian or Pacific Islander,944,7916293
+,55-59 years,Male,Black or African American,1785,19519866
+,55-59 years,Male,White,46331,151037578
+Total,55-59 years,Male,,49322,180257469
+Total,55-59 years,,,65278,371673596
+,60-64 years ,Female,American Indian or Alaska Native,54,1435233
+,60-64 years ,Female,Asian or Pacific Islander,306,7548412
+,60-64 years ,Female,Black or African American,311,18260783
+,60-64 years ,Female,White,10197,134433370
+Total,60-64 years ,Female,,10868,161677798
+,60-64 years ,Male,American Indian or Alaska Native,161,1323016
+,60-64 years ,Male,Asian or Pacific Islander,702,6288632
+,60-64 years ,Male,Black or African American,1215,14783747
+,60-64 years ,Male,White,34069,125825844
+Total,60-64 years ,Male,,36147,148221239
+Total,60-64 years ,,,47015,309899037
+,65-69 years,Female,American Indian or Alaska Native,25,1035165
+,65-69 years,Female,Asian or Pacific Islander,220,5837800
+,65-69 years,Female,Black or African American,183,14082393
+,65-69 years,Female,White,6576,111541455
+Total,65-69 years,Female,,7004,132496813
+,65-69 years,Male,American Indian or Alaska Native,98,925770
+,65-69 years,Male,Asian or Pacific Islander,555,4775342
+,65-69 years,Male,Black or African American,869,10769029
+,65-69 years,Male,White,25823,100733027
+Total,65-69 years,Male,,27345,117203168
+Total,65-69 years,,,34349,249699981
+,70-74 years,Female,American Indian or Alaska Native,14,722200
+,70-74 years,Female,Asian or Pacific Islander,203,4307672
+,70-74 years,Female,Black or African American,127,10627143
+,70-74 years,Female,White,4465,91625228
+Total,70-74 years,Female,,4809,107282243
+,70-74 years,Male,American Indian or Alaska Native,68,605450
+,70-74 years,Male,Asian or Pacific Islander,384,3415254
+,70-74 years,Male,Black or African American,704,7495349
+,70-74 years,Male,White,22470,77927233
+Total,70-74 years,Male,,23626,89443286
+Total,70-74 years,,,28435,196725529
+,75-79 years,Female,American Indian or Alaska Native,5,496763
+,75-79 years,Female,Asian or Pacific Islander,180,3123279
+,75-79 years,Female,Black or African American,76,8041003
+,75-79 years,Female,White,3375,75893397
+Total,75-79 years,Female,,3636,87554442
+,75-79 years,Male,American Indian or Alaska Native,52,376983
+,75-79 years,Male,Asian or Pacific Islander,331,2354913
+,75-79 years,Male,Black or African American,557,5055998
+,75-79 years,Male,White,20517,58549336
+Total,75-79 years,Male,,21457,66337230
+Total,75-79 years,,,25093,153891672
+,80-84 years,Female,American Indian or Alaska Native,4,318885
+,80-84 years,Female,Asian or Pacific Islander,138,2098058
+,80-84 years,Female,Black or African American,58,5633773
+,80-84 years,Female,White,2489,59622325
+Total,80-84 years,Female,,2689,67673041
+,80-84 years,Male,American Indian or Alaska Native,34,211590
+,80-84 years,Male,Asian or Pacific Islander,239,1448112
+,80-84 years,Male,Black or African American,363,3022653
+,80-84 years,Male,White,16991,39835946
+Total,80-84 years,Male,,17627,44518301
+Total,80-84 years,,,20316,112191342
+,85-89 years,Female,American Indian or Alaska Native,2,Not Applicable
+,85-89 years,Female,Asian or Pacific Islander,105,Not Applicable
+,85-89 years,Female,Black or African American,30,Not Applicable
+,85-89 years,Female,White,1576,Not Applicable
+Total,85-89 years,Female,,1713,Not Applicable
+,85-89 years,Male,American Indian or Alaska Native,17,Not Applicable
+,85-89 years,Male,Asian or Pacific Islander,151,Not Applicable
+,85-89 years,Male,Black or African American,178,Not Applicable
+,85-89 years,Male,White,11208,Not Applicable
+Total,85-89 years,Male,,11554,Not Applicable
+Total,85-89 years,,,13267,Not Applicable
+,90-94 years,Female,Asian or Pacific Islander,32,Not Applicable
+,90-94 years,Female,Black or African American,15,Not Applicable
+,90-94 years,Female,White,645,Not Applicable
+Total,90-94 years,Female,,692,Not Applicable
+,90-94 years,Male,American Indian or Alaska Native,6,Not Applicable
+,90-94 years,Male,Asian or Pacific Islander,66,Not Applicable
+,90-94 years,Male,Black or African American,68,Not Applicable
+,90-94 years,Male,White,4255,Not Applicable
+Total,90-94 years,Male,,4395,Not Applicable
+Total,90-94 years,,,5087,Not Applicable
+,95-99 years,Female,Asian or Pacific Islander,9,Not Applicable
+,95-99 years,Female,Black or African American,2,Not Applicable
+,95-99 years,Female,White,159,Not Applicable
+Total,95-99 years,Female,,170,Not Applicable
+,95-99 years,Male,American Indian or Alaska Native,2,Not Applicable
+,95-99 years,Male,Asian or Pacific Islander,18,Not Applicable
+,95-99 years,Male,Black or African American,9,Not Applicable
+,95-99 years,Male,White,762,Not Applicable
+Total,95-99 years,Male,,791,Not Applicable
+Total,95-99 years,,,961,Not Applicable
+,100+ years,Female,Black or African American,1,Not Applicable
+,100+ years,Female,White,10,Not Applicable
+Total,100+ years,Female,,11,Not Applicable
+,100+ years,Male,Asian or Pacific Islander,5,Not Applicable
+,100+ years,Male,Black or African American,3,Not Applicable
+,100+ years,Male,White,58,Not Applicable
+Total,100+ years,Male,,66,Not Applicable
+Total,100+ years,,,77,Not Applicable
+,Not Stated,Female,Asian or Pacific Islander,1,Not Applicable
+,Not Stated,Female,Black or African American,1,Not Applicable
+,Not Stated,Female,White,12,Not Applicable
+Total,Not Stated,Female,,14,Not Applicable
+,Not Stated,Male,American Indian or Alaska Native,4,Not Applicable
+,Not Stated,Male,Asian or Pacific Islander,7,Not Applicable
+,Not Stated,Male,Black or African American,11,Not Applicable
+,Not Stated,Male,White,112,Not Applicable
+Total,Not Stated,Male,,134,Not Applicable
+Total,Not Stated,,,148,Not Applicable
+Total,,,,745360,6088633001
+,45-49 years,2015,20853844,,
+,45-49 years,2016,20947623,,
+,45-49 years,2017,20973858,,
+,45-49 years,2018,20747135,,
+Total,45-49 years,,431276139,,
+,50-54 years,1999,16923612,,
+,50-54 years,2000,17585548,,
+,50-54 years,2001,18687285,,
+,50-54 years,2002,18739906,,
+,50-54 years,2003,19097278,,
+,50-54 years,2004,19564668,,
+,50-54 years,2005,20078733,,
+,50-54 years,2006,20570873,,
+,50-54 years,2007,21140178,,
+,50-54 years,2008,21639474,,
+,50-54 years,2009,22004843,,
+,50-54 years,2010,22298125,,
+,50-54 years,2011,22560198,,
+,50-54 years,2012,22579259,,
+,50-54 years,2013,22559226,,
+,50-54 years,2014,22570809,,
+,50-54 years,2015,22334317,,
+,50-54 years,2016,21839056,,
+,50-54 years,2017,21401094,,
+,50-54 years,2018,20884564,,
+Total,50-54 years,,415059046,,
+,55-59 years,1999,13084821,,
+,55-59 years,2000,13469237,,
+,55-59 years,2001,13968975,,
+,55-59 years,2002,15143067,,
+,55-59 years,2003,15814557,,
+,55-59 years,2004,16607176,,
+,55-59 years,2005,17503220,,
+,55-59 years,2006,18396860,,
+,55-59 years,2007,18454772,,
+,55-59 years,2008,18814568,,
+,55-59 years,2009,19280603,,
+,55-59 years,2010,19664805,,
+,55-59 years,2011,20255548,,
+,55-59 years,2012,20772517,,
+,55-59 years,2013,21194430,,
+,55-59 years,2014,21511449,,
+,55-59 years,2015,21807942,,
+,55-59 years,2016,21980108,,
+,55-59 years,2017,22007956,,
+,55-59 years,2018,21940985,,
+Total,55-59 years,,371673596,,
+,60-64 years ,1999,10693205,,
+,60-64 years ,2000,10805447,,
+,60-64 years ,2001,11136320,,
+,60-64 years ,2002,11560265,,
+,60-64 years ,2003,12194388,,
+,60-64 years ,2004,12698128,,
+,60-64 years ,2005,13138277,,
+,60-64 years ,2006,13533253,,
+,60-64 years ,2007,14673662,,
+,60-64 years ,2008,15342495,,
+,60-64 years ,2009,16124997,,
+,60-64 years ,2010,16817924,,
+,60-64 years ,2011,17806592,,
+,60-64 years ,2012,17813685,,
+,60-64 years ,2013,18122001,,
+,60-64 years ,2014,18566132,,
+,60-64 years ,2015,19069877,,
+,60-64 years ,2016,19483036,,
+,60-64 years ,2017,19987702,,
+,60-64 years ,2018,20331651,,
+Total,60-64 years ,,309899037,,
+,65-69 years,1999,9541498,,
+,65-69 years,2000,9533545,,
+,65-69 years,2001,9562233,,
+,65-69 years,2002,9638481,,
+,65-69 years,2003,9830796,,
+,65-69 years,2004,10073429,,
+,65-69 years,2005,10278627,,
+,65-69 years,2006,10553201,,
+,65-69 years,2007,10970235,,
+,65-69 years,2008,11594347,,
+,65-69 years,2009,12092377,,
+,65-69 years,2010,12435263,,
+,65-69 years,2011,12873788,,
+,65-69 years,2012,13977353,,
+,65-69 years,2013,14608717,,
+,65-69 years,2014,15325266,,
+,65-69 years,2015,16067468,,
+,65-69 years,2016,16820083,,
+,65-69 years,2017,16836381,,
+,65-69 years,2018,17086893,,
+Total,65-69 years,,249699981,,
+,70-74 years,1999,8877411,,
+,70-74 years,2000,8857441,,
+,70-74 years,2001,8821946,,
+,70-74 years,2002,8750054,,
+,70-74 years,2003,8670119,,
+,70-74 years,2004,8594104,,
+,70-74 years,2005,8603070,,
+,70-74 years,2006,8649826,,
+,70-74 years,2007,8728492,,
+,70-74 years,2008,8911332,,
+,70-74 years,2009,9140722,,
+,70-74 years,2010,9278166,,
+,70-74 years,2011,9607950,,
+,70-74 years,2012,10008039,,
+,70-74 years,2013,10608049,,
+,70-74 years,2014,11073024,,
+,70-74 years,2015,11483049,,
+,70-74 years,2016,11810247,,
+,70-74 years,2017,12847065,,
+,70-74 years,2018,13405423,,
+Total,70-74 years,,196725529,,
+,75-79 years,1999,7342606,,
+,75-79 years,2000,7415813,,
+,75-79 years,2001,7455413,,
+,75-79 years,2002,7470461,,
+,75-79 years,2003,7497842,,
+,75-79 years,2004,7461399,,
+,75-79 years,2005,7463609,,
+,75-79 years,2006,7447034,,
+,75-79 years,2007,7400363,,
+,75-79 years,2008,7345743,,
+,75-79 years,2009,7295064,,
+,75-79 years,2010,7317795,,
+,75-79 years,2011,7388687,,
+,75-79 years,2012,7489583,,
+,75-79 years,2013,7677881,,
+,75-79 years,2014,7922324,,
+,75-79 years,2015,8123833,,
+,75-79 years,2016,8367895,,
+,75-79 years,2017,8741261,,
+,75-79 years,2018,9267066,,
+Total,75-79 years,,153891672,,
+,80-84 years,1999,4882308,,
+,80-84 years,2000,4945367,,
+,80-84 years,2001,5138205,,
+,80-84 years,2002,5294403,,
+,80-84 years,2003,5398596,,
+,80-84 years,2004,5528504,,
+,80-84 years,2005,5611193,,
+,80-84 years,2006,5648117,,
+,80-84 years,2007,5687076,,
+,80-84 years,2008,5730359,,
+,80-84 years,2009,5727711,,
+,80-84 years,2010,5743327,,
+,80-84 years,2011,5786543,,
+,80-84 years,2012,5783051,,
+,80-84 years,2013,5768638,,
+,80-84 years,2014,5760366,,
+,80-84 years,2015,5799341,,
+,80-84 years,2016,5865639,,
+,80-84 years,2017,5965290,,
+,80-84 years,2018,6127308,,
+Total,80-84 years,,112191342,,
+,85-89 years,1999,Not Applicable,,
+,85-89 years,2000,Not Applicable,,
+,85-89 years,2001,Not Applicable,,
+,85-89 years,2002,Not Applicable,,
+,85-89 years,2003,Not Applicable,,
+,85-89 years,2004,Not Applicable,,
+,85-89 years,2005,Not Applicable,,
+,85-89 years,2006,Not Applicable,,
+,85-89 years,2007,Not Applicable,,
+,85-89 years,2008,Not Applicable,,
+,85-89 years,2009,Not Applicable,,
+,85-89 years,2010,Not Applicable,,
+,85-89 years,2011,Not Applicable,,
+,85-89 years,2012,Not Applicable,,
+,85-89 years,2013,Not Applicable,,
+,85-89 years,2014,Not Applicable,,
+,85-89 years,2015,Not Applicable,,
+,85-89 years,2016,Not Applicable,,
+,85-89 years,2017,Not Applicable,,
+,85-89 years,2018,Not Applicable,,
+Total,85-89 years,,Not Applicable,,
+,90-94 years,1999,Not Applicable,,
+,90-94 years,2000,Not Applicable,,
+,90-94 years,2001,Not Applicable,,
+,90-94 years,2002,Not Applicable,,
+,90-94 years,2003,Not Applicable,,
+,90-94 years,2004,Not Applicable,,
+,90-94 years,2005,Not Applicable,,
+,90-94 years,2006,Not Applicable,,
+,90-94 years,2007,Not Applicable,,
+,90-94 years,2008,Not Applicable,,
+,90-94 years,2009,Not Applicable,,
+,90-94 years,2010,Not Applicable,,
+,90-94 years,2011,Not Applicable,,
+,90-94 years,2012,Not Applicable,,
+,90-94 years,2013,Not Applicable,,
+,90-94 years,2014,Not Applicable,,
+,90-94 years,2015,Not Applicable,,
+,90-94 years,2016,Not Applicable,,
+,90-94 years,2017,Not Applicable,,
+,90-94 years,2018,Not Applicable,,
+Total,90-94 years,,Not Applicable,,
+,95-99 years,1999,Not Applicable,,
+,95-99 years,2000,Not Applicable,,
+,95-99 years,2001,Not Applicable,,
+,95-99 years,2002,Not Applicable,,
+,95-99 years,2003,Not Applicable,,
+,95-99 years,2004,Not Applicable,,
+,95-99 years,2005,Not Applicable,,
+,95-99 years,2006,Not Applicable,,
+,95-99 years,2007,Not Applicable,,
+,95-99 years,2008,Not Applicable,,
+,95-99 years,2009,Not Applicable,,
+,95-99 years,2010,Not Applicable,,
+,95-99 years,2011,Not Applicable,,
+,95-99 years,2012,Not Applicable,,
+,95-99 years,2013,Not Applicable,,
+,95-99 years,2014,Not Applicable,,
+,95-99 years,2015,Not Applicable,,
+,95-99 years,2016,Not Applicable,,
+,95-99 years,2017,Not Applicable,,
+,95-99 years,2018,Not Applicable,,
+Total,95-99 years,,Not Applicable,,
+,100+ years,1999,Not Applicable,,
+,100+ years,2000,Not Applicable,,
+,100+ years,2001,Not Applicable,,
+,100+ years,2002,Not Applicable,,
+,100+ years,2003,Not Applicable,,
+,100+ years,2004,Not Applicable,,
+,100+ years,2005,Not Applicable,,
+,100+ years,2006,Not Applicable,,
+,100+ years,2007,Not Applicable,,
+,100+ years,2008,Not Applicable,,
+,100+ years,2009,Not Applicable,,
+,100+ years,2010,Not Applicable,,
+,100+ years,2011,Not Applicable,,
+,100+ years,2012,Not Applicable,,
+,100+ years,2013,Not Applicable,,
+,100+ years,2014,Not Applicable,,
+,100+ years,2015,Not Applicable,,
+,100+ years,2016,Not Applicable,,
+,100+ years,2017,Not Applicable,,
+,100+ years,2018,Not Applicable,,
+Total,100+ years,,Not Applicable,,
+Total,,,6088633001,,
