@@ -4593,6 +4593,12 @@
       <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
       <_.fcp.ObjectModelTableType.true...column caption='Suicide by Age Group, Gender, and Race.csv' datatype='table' name='[__tableau_internal_object_id__].[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]' role='measure' type='quantitative' />
       <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
