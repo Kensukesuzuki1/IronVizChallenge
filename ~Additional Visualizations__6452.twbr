@@ -1,0 +1,2493 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook source-build='2020.2.2 (20202.20.0614.2338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Merged_Suicide_Data' inline='true' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Merged_Suicide_Data_updatedCounty' name='textscan.025in1e1l906oi1g7ob6g0ix9hms'>
+            <connection class='textscan' directory='C:/Users/kensu/Desktop/IronViz/IronVizChallenge/Final_Data' filename='Merged_Suicide_Data_updatedCounty.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.025in1e1l906oi1g7ob6g0ix9hms' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='State Code' ordinal='4' />
+            <column datatype='string' name='County' ordinal='5' />
+            <column datatype='integer' name='County Code' ordinal='6' />
+            <column datatype='integer' name='Deaths' ordinal='7' />
+            <column datatype='integer' name='Population' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.025in1e1l906oi1g7ob6g0ix9hms' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+              <column datatype='string' name='State' ordinal='3' />
+              <column datatype='integer' name='State Code' ordinal='4' />
+              <column datatype='string' name='County' ordinal='5' />
+              <column datatype='integer' name='County Code' ordinal='6' />
+              <column datatype='integer' name='Deaths' ordinal='7' />
+              <column datatype='integer' name='Population' ordinal='8' />
+              <column datatype='integer' name='Year' ordinal='9' />
+            </columns>
+          </relation>
+          <relation connection='textscan.025in1e1l906oi1g7ob6g0ix9hms' name='Suicide by Age Group, Gender, and Race.csv' table='[Suicide by Age Group, Gender, and Race#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Notes' ordinal='0' />
+              <column datatype='string' name='Five-Year Age Groups' ordinal='1' />
+              <column datatype='string' name='Gender' ordinal='2' />
+              <column datatype='string' name='Race' ordinal='3' />
+              <column datatype='integer' name='Deaths' ordinal='4' />
+              <column datatype='string' name='Population' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[County Code]' value='[Merged_Suicide_Data_updatedCounty.csv].[County Code]' />
+          <map key='[County]' value='[Merged_Suicide_Data_updatedCounty.csv].[County]' />
+          <map key='[Deaths (Suicide by Age Group, Gender, and Race.csv)]' value='[Suicide by Age Group, Gender, and Race.csv].[Deaths]' />
+          <map key='[Deaths]' value='[Merged_Suicide_Data_updatedCounty.csv].[Deaths]' />
+          <map key='[F1]' value='[Merged_Suicide_Data_updatedCounty.csv].[F1]' />
+          <map key='[Five-Year Age Groups]' value='[Suicide by Age Group, Gender, and Race.csv].[Five-Year Age Groups]' />
+          <map key='[Gender]' value='[Suicide by Age Group, Gender, and Race.csv].[Gender]' />
+          <map key='[Notes]' value='[Suicide by Age Group, Gender, and Race.csv].[Notes]' />
+          <map key='[Population (Suicide by Age Group, Gender, and Race.csv)]' value='[Suicide by Age Group, Gender, and Race.csv].[Population]' />
+          <map key='[Population]' value='[Merged_Suicide_Data_updatedCounty.csv].[Population]' />
+          <map key='[Race]' value='[Suicide by Age Group, Gender, and Race.csv].[Race]' />
+          <map key='[State Code]' value='[Merged_Suicide_Data_updatedCounty.csv].[State Code]' />
+          <map key='[State]' value='[Merged_Suicide_Data_updatedCounty.csv].[State]' />
+          <map key='[Unnamed: 0.1]' value='[Merged_Suicide_Data_updatedCounty.csv].[Unnamed: 0.1]' />
+          <map key='[Unnamed: 0]' value='[Merged_Suicide_Data_updatedCounty.csv].[Unnamed: 0]' />
+          <map key='[Year]' value='[Merged_Suicide_Data_updatedCounty.csv].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0.1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0.1]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Unnamed: 0.1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[State Code]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>State Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[County Code]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>County Code</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Notes]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Notes</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Five-Year Age Groups</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Five-Year Age Groups]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Five-Year Age Groups</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Race]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Race</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths (Suicide by Age Group, Gender, and Race.csv)]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Population (Suicide by Age Group, Gender, and Race.csv)]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Population:qk]&quot;' value='Total Deaths' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[County Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[State Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Merged_Suicide_Data_updatedCounty.csv' datatype='table' name='[__tableau_internal_object_id__].[Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Suicide by Age Group, Gender, and Race.csv' datatype='table' name='[__tableau_internal_object_id__].[Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8]' role='measure' type='quantitative' />
+      <column-instance column='[Deaths]' derivation='Attribute' name='[attr:Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='Avg' name='[avg:Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deaths]' derivation='Count' name='[cnt:Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='Count' name='[cnt:Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deaths]' derivation='None' name='[none:Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[attr:Deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[cnt:Deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[avg:Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[cnt:Population:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;West Virginia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Alabama&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maryland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South Carolina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mississippi&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Utah&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Idaho&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Colorado&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Missouri&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vermont&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Louisiana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alaska&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;South Dakota&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kansas&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oklahoma&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Connecticut&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Montana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Illinois&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;North Carolina&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Indiana&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;North Dakota&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kentucky&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oregon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maine&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Jersey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wyoming&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nebraska&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arizona&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Iowa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ohio&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hawaii&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New Mexico&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Arkansas&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Minnesota&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#87d180'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#8dbfa8'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Race:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Black or African American&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Asian or Pacific Islander&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;American Indian or Alaska Native&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Merged_Suicide_Data_updatedCounty.csv' id='Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C'>
+            <properties context=''>
+              <relation connection='textscan.025in1e1l906oi1g7ob6g0ix9hms' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='State Code' ordinal='4' />
+                  <column datatype='string' name='County' ordinal='5' />
+                  <column datatype='integer' name='County Code' ordinal='6' />
+                  <column datatype='integer' name='Deaths' ordinal='7' />
+                  <column datatype='integer' name='Population' ordinal='8' />
+                  <column datatype='integer' name='Year' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='Suicide by Age Group, Gender, and Race.csv' id='Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8'>
+            <properties context=''>
+              <relation connection='textscan.025in1e1l906oi1g7ob6g0ix9hms' name='Suicide by Age Group, Gender, and Race.csv' table='[Suicide by Age Group, Gender, and Race#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Notes' ordinal='0' />
+                  <column datatype='string' name='Five-Year Age Groups' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Race' ordinal='3' />
+                  <column datatype='integer' name='Deaths' ordinal='4' />
+                  <column datatype='string' name='Population' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Deaths]' />
+              <expression op='[Deaths (Suicide by Age Group, Gender, and Race.csv)]' />
+            </expression>
+            <first-end-point object-id='Merged_Suicide_Data_updatedCounty.csv_990D4D17F9714BA4976678B887E24B1C' />
+            <second-end-point object-id='Suicide by Age Group, Gender, and Race.csv_1226D88CF2B347F084A49450D8F702D8' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Merged_Suicide_Data_updatedCounty' inline='true' name='federated.10x7nkg160bqvy105oudx0hfcc0n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Merged_Suicide_Data_updatedCounty' name='textscan.1sqzs4e1vkrquj16zet271bgduvx'>
+            <connection class='textscan' directory='C:/Users/kensu/Desktop/IronViz/IronVizChallenge/Final_Data' filename='Merged_Suicide_Data_updatedCounty.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1sqzs4e1vkrquj16zet271bgduvx' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='State Code' ordinal='4' />
+            <column datatype='string' name='County' ordinal='5' />
+            <column datatype='integer' name='County Code' ordinal='6' />
+            <column datatype='integer' name='Deaths' ordinal='7' />
+            <column datatype='integer' name='Population' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1sqzs4e1vkrquj16zet271bgduvx' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='State Code' ordinal='4' />
+            <column datatype='string' name='County' ordinal='5' />
+            <column datatype='integer' name='County Code' ordinal='6' />
+            <column datatype='integer' name='Deaths' ordinal='7' />
+            <column datatype='integer' name='Population' ordinal='8' />
+            <column datatype='integer' name='Year' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0.1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0.1]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Unnamed: 0.1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[State Code]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>State Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[County Code]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>County Code</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Merged_Suicide_Data_updatedCounty.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[County Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+        <semantic-values semantic-role='[County].[Name]'>
+          <semantic-value key='&quot;Clifton Forge city&quot;' value='&quot;Allegheny&quot;' />
+          <semantic-value key='&quot;Prince of Wales-Outer Ketchikan&quot;' value='&quot;Prince of Wales-Hyder&quot;' />
+          <semantic-value key='&quot;Skagway-Hoonah-Angoon&quot;' value='&quot;Skagway&quot;' />
+          <semantic-value key='&quot;Wrangell City and&quot;' value='&quot;Wrangell&quot;' />
+          <semantic-value key='&quot;Wrangell-Petersburg&quot;' value='&quot;Wrangell&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='integer' name='[State Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Merged_Suicide_Data_updatedCounty.csv' datatype='table' name='[__tableau_internal_object_id__].[Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599]' role='measure' type='quantitative' />
+      <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (County,State,Year)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:County:nk]' />
+          <groupfilter function='level-members' level='[none:State:nk]' />
+          <groupfilter function='level-members' level='[none:Year:ok]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (County,State,Year)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:County:nk]' />
+          <groupfilter function='level-members' level='[none:State:nk]' />
+          <groupfilter function='level-members' level='[none:Year:ok]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Merged_Suicide_Data_updatedCounty.csv' id='Merged_Suicide_Data_updatedCounty.csv_BEA70FDBE5F04033A50ABBD603350599'>
+            <properties context=''>
+              <relation connection='textscan.1sqzs4e1vkrquj16zet271bgduvx' name='Merged_Suicide_Data_updatedCounty.csv' table='[Merged_Suicide_Data_updatedCounty#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Unnamed: 0.1' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='State Code' ordinal='4' />
+                  <column datatype='string' name='County' ordinal='5' />
+                  <column datatype='integer' name='County Code' ordinal='6' />
+                  <column datatype='integer' name='Deaths' ordinal='7' />
+                  <column datatype='integer' name='Population' ordinal='8' />
+                  <column datatype='integer' name='Year' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Suicide by Age Group, Gender, and Race' inline='true' name='federated.1ifuj2v1blclqj1c378zz0gd5q43' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Suicide by Age Group, Gender, and Race' name='textscan.0qlc2380xm7h2y11c874u1mxv8kw'>
+            <connection class='textscan' directory='C:/Users/kensu/Desktop/IronViz/IronVizChallenge/Final_Data' filename='Suicide by Age Group, Gender, and Race.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qlc2380xm7h2y11c874u1mxv8kw' name='Suicide by Age Group, Gender, and Race.csv' table='[Suicide by Age Group, Gender, and Race#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Notes' ordinal='0' />
+            <column datatype='string' name='Five-Year Age Groups' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Race' ordinal='3' />
+            <column datatype='integer' name='Deaths' ordinal='4' />
+            <column datatype='string' name='Population' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qlc2380xm7h2y11c874u1mxv8kw' name='Suicide by Age Group, Gender, and Race.csv' table='[Suicide by Age Group, Gender, and Race#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Notes' ordinal='0' />
+            <column datatype='string' name='Five-Year Age Groups' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Race' ordinal='3' />
+            <column datatype='integer' name='Deaths' ordinal='4' />
+            <column datatype='string' name='Population' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Notes]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Notes</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Five-Year Age Groups</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Five-Year Age Groups]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Five-Year Age Groups</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Race]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Race</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Suicide by Age Group, Gender, and Race.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Suicide by Age Group, Gender, and Race.csv' datatype='table' name='[__tableau_internal_object_id__].[Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3]' role='measure' type='quantitative' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Suicide by Age Group, Gender, and Race.csv' id='Suicide by Age Group, Gender, and Race.csv_13923CF7490F4684A5305680CEB99CE3'>
+            <properties context=''>
+              <relation connection='textscan.0qlc2380xm7h2y11c874u1mxv8kw' name='Suicide by Age Group, Gender, and Race.csv' table='[Suicide by Age Group, Gender, and Race#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Notes' ordinal='0' />
+                  <column datatype='string' name='Five-Year Age Groups' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Race' ordinal='3' />
+                  <column datatype='integer' name='Deaths' ordinal='4' />
+                  <column datatype='string' name='Population' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Race Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='State' />
+        <param name='target' value='Race Dashboard' />
+      </command>
+    </action>
+    <action caption='Highlight 3 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='County Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='State' />
+        <param name='target' value='County Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='County Totals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' direction='ASC' using='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:County:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:County:nk]</rows>
+        <cols>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</cols>
+      </table>
+      <simple-id uuid='{3C9AAD60-DF31-49B7-943C-601D71DDD6E1}' />
+    </worksheet>
+    <worksheet name='Race by Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Race:nk]' />
+              <groupfilter function='member' level='[none:Race:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' value='180' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' />
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</rows>
+        <cols>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</cols>
+        <pages>
+          <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Year:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{766390C5-8FD2-4AE2-B70B-0A875044B9D9}' />
+    </worksheet>
+    <worksheet name='Race, Age, and Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> &lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Five-Year Age Groups]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column-instance column='[Five-Year Age Groups]' derivation='None' name='[none:Five-Year Age Groups:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Race:nk]' />
+              <groupfilter function='member' level='[none:Race:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</column>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]</column>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</rows>
+        <cols>([federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk] / [federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Five-Year Age Groups:nk])</cols>
+        <pages>
+          <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{DB1359BA-B670-46AE-9AFB-11807ED8CAEC}' />
+    </worksheet>
+    <worksheet name='State and County Totals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' direction='DESC' using='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' />
+          <filter class='quantitative' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:County:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk] / [federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:County:nk])</rows>
+        <cols>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</cols>
+      </table>
+      <simple-id uuid='{1C0BA666-7C4A-4124-BF2F-891FF7664119}' />
+    </worksheet>
+    <worksheet name='State and Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]</rows>
+        <cols>([federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk] * [federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk])</cols>
+      </table>
+      <simple-id uuid='{81A86E69-48BD-4E0E-AD42-CD60A4E33E09}' />
+    </worksheet>
+    <worksheet name='Suicide Based on Age and Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Suicide Based on Age and Gender
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Suicide by Age Group, Gender, and Race' name='federated.1ifuj2v1blclqj1c378zz0gd5q43' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ifuj2v1blclqj1c378zz0gd5q43'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Five-Year Age Groups]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Five-Year Age Groups]' derivation='None' name='[none:Five-Year Age Groups:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Five-Year Age Groups:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Five-Year Age Groups:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Five-Year Age Groups:nk]' member='&quot;Not Stated&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]</column>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]' value='96' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]</rows>
+        <cols>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]</cols>
+      </table>
+      <simple-id uuid='{AD4B5872-4963-46F4-A28A-8E36BA062069}' />
+    </worksheet>
+    <worksheet name='Suicide Levels in States'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data_updatedCounty' name='federated.10x7nkg160bqvy105oudx0hfcc0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10x7nkg160bqvy105oudx0hfcc0n'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:Year:qk]' field-type='quantitative' max='2018' min='2013' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10x7nkg160bqvy105oudx0hfcc0n].[sum:Deaths:qk]</rows>
+        <cols>[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{B7641AD7-FB7A-482A-A484-1DA9615325AB}' />
+    </worksheet>
+    <worksheet name='Suicide based on Age and Race'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Suicide based on Age and Race
+
+
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Suicide by Age Group, Gender, and Race' name='federated.1ifuj2v1blclqj1c378zz0gd5q43' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ifuj2v1blclqj1c378zz0gd5q43'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Five-Year Age Groups]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column-instance column='[Five-Year Age Groups]' derivation='None' name='[none:Five-Year Age Groups:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Five-Year Age Groups:nk]' />
+              <groupfilter function='member' level='[none:Five-Year Age Groups:nk]' member='&quot;Not Stated&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Race:nk]' />
+              <groupfilter function='member' level='[none:Race:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]</column>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]' value='284' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Five-Year Age Groups:nk]</rows>
+        <cols>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]</cols>
+      </table>
+      <simple-id uuid='{D2D38251-5E6D-4AEF-8CA5-3F88D5F763F2}' />
+    </worksheet>
+    <worksheet name='Suicide based on Race and Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Suicide based on Race and Gender
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Suicide by Age Group, Gender, and Race' name='federated.1ifuj2v1blclqj1c378zz0gd5q43' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ifuj2v1blclqj1c378zz0gd5q43'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Race:nk]' />
+              <groupfilter function='member' level='[none:Race:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]</column>
+            <column>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]' value='238' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Race:nk]</rows>
+        <cols>[federated.1ifuj2v1blclqj1c378zz0gd5q43].[none:Gender:nk]</cols>
+      </table>
+      <simple-id uuid='{B904BAE1-05BC-4520-AFDC-2DE32B9F883B}' />
+    </worksheet>
+    <worksheet name='Suicide in the State and County'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data_updatedCounty' name='federated.10x7nkg160bqvy105oudx0hfcc0n' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.10x7nkg160bqvy105oudx0hfcc0n'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Clifton Forge city&quot;' value='&quot;Allegheny&quot;' />
+                <semantic-value key='&quot;Prince of Wales-Outer Ketchikan&quot;' value='&quot;Prince of Wales-Hyder&quot;' />
+                <semantic-value key='&quot;Skagway-Hoonah-Angoon&quot;' value='&quot;Skagway&quot;' />
+                <semantic-value key='&quot;Wrangell City and&quot;' value='&quot;Wrangell&quot;' />
+                <semantic-value key='&quot;Wrangell-Petersburg&quot;' value='&quot;Wrangell&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.10x7nkg160bqvy105oudx0hfcc0n].[Latitude (generated)]</column>
+            <column>[federated.10x7nkg160bqvy105oudx0hfcc0n].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Longitude (generated)]' field-type='quantitative' max='-4434848.5354793146' min='-19093882.858301241' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Latitude (generated)]' field-type='quantitative' max='8809580.9806992915' min='169917.58956642949' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:County:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:County:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:County:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[sum:Deaths:qk]' />
+              <lod column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:State:nk]' />
+              <lod column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:County:nk]' />
+              <geometry column='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10x7nkg160bqvy105oudx0hfcc0n].[Latitude (generated)]</rows>
+        <cols>[federated.10x7nkg160bqvy105oudx0hfcc0n].[Longitude (generated)]</cols>
+        <pages>
+          <column>[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:Year:ok]</column>
+        </pages>
+        <page-trail-options mark-type='highlighted' />
+      </table>
+      <simple-id uuid='{5C0C5721-7FED-40F1-97AA-DB5DE79E1348}' />
+    </worksheet>
+    <worksheet name='Suicide vs. Race'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Race]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Race]' derivation='None' name='[none:Race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Race:nk]' />
+              <groupfilter function='member' level='[none:Race:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]</rows>
+        <cols>([federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk] * [federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Year:qk])</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='90.000000' enabled='false' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='None' range-size='1' range-type='end-of' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{BE5B5DBE-F002-4E81-9E5C-EF148960456D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='County Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Merged_Suicide_Data' name='federated.10xx42q1fedtbp19q7rnj1lvkse1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.10xx42q1fedtbp19q7rnj1lvkse1'>
+        <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='County Totals' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='49000' id='8' name='County Totals' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' values='cascading' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='49000' id='9' name='County Totals' pane-specification-id='0' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' w='16000' x='83200' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='21' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='20' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='49000' id='8' mode='checkdropdown' name='County Totals' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' values='cascading' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='County Totals' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='49000' id='9' name='County Totals' pane-specification-id='0' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' w='16000' x='83200' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D6DB9090-1AF6-44E9-923E-5E0BDD6C0691}' />
+    </dashboard>
+    <dashboard name='Gender Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Suicide Based on Age and Gender' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='9' name='Suicide based on Race and Gender' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9125' id='8' name='Suicide Based on Age and Gender' pane-specification-id='0' param='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='11' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='10' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Suicide Based on Age and Gender' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='8' name='Suicide Based on Age and Gender' pane-specification-id='0' param='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Suicide based on Race and Gender' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7F249B25-77F3-4E3F-B237-95C38E5731B0}' />
+    </dashboard>
+    <dashboard name='Race Dashboard'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='wrap' id='dash-text_17' value='on' />
+          <format attr='vertical-align' id='dash-text_17' value='top' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='74200' x='800' y='1000'>
+              <zone h='72125' id='3' name='Suicide vs. Race' w='74200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='25875' id='17' w='74200' x='800' y='73125'>
+                <formatted-text>
+                  <run>Self-inflicted deaths have a higher total among American Indian and Afircan Amerian populations than among White populations, despite having a lower percentage of the total population.
+
+There was a yearly rise in suicides among the African Amerian population. The large r-squared (57%) and small p-value (7.9%) indicate that the trend is statistically significant.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' fixed-size='242' h='98000' id='11' is-fixed='true' w='24200' x='75000' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='6' param='vert' w='24200' x='75000' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='352' h='45000' id='8' is-fixed='true' name='Suicide vs. Race' pane-specification-id='1' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' w='24200' x='75000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='25' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='24' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='72125' id='3' is-fixed='true' name='Suicide vs. Race' w='74200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='352' h='45000' id='8' name='Suicide vs. Race' pane-specification-id='1' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' w='24200' x='75000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='25875' id='17' w='74200' x='800' y='73125'>
+                  <formatted-text>
+                    <run>Self-inflicted deaths have a higher total among American Indian and Afircan Amerian populations than among White populations, despite having a lower percentage of the total population.
+
+There was a yearly rise in suicides among the African Amerian population. The large r-squared (57%) and small p-value (7.9%) indicate that the trend is statistically significant.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A5CC6EC1-492F-4563-BB71-EC1E9084CC8A}' />
+    </dashboard>
+    <dashboard name='Suicide Story' type='storyboard'>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='font-style' id='story-description_11' value='normal' />
+          <format attr='font-weight' id='story-description_11' value='normal' />
+          <format attr='text-decoration' id='story-description_11' value='none' />
+          <format attr='background-color' id='story-description_10' value='#00000000' />
+          <format attr='text-align' id='story-description_10' value='left' />
+          <format attr='wrap' id='story-description_10' value='on' />
+          <format attr='vertical-align' id='story-description_10' value='top' />
+          <format attr='border-width' id='story-description_10' value='0' />
+          <format attr='border-style' id='story-description_10' value='none' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='216' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='12' param='vert' removable='false' w='98426' x='787' y='830'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='9' param='vert' removable='false' w='98426' x='787' y='830'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='7' param='vert' removable='false' w='98426' x='787' y='830'>
+                <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='1' param='vert' removable='false' w='98426' x='787' y='830'>
+                  <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' fixed-size='104' h='6535' id='4' paired-zone-id='5' removable='false' w='98426' x='787' y='830' />
+                  <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='91805' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='7365'>
+                    <flipboard active-id='5' nav-type='dot' show-nav-arrows='true'>
+                      <story-points>
+                        <story-point caption='County Map' captured-sheet='Suicide in the State and County' id='6'>
+                          <capturedDeltas>
+                            <worksheet name='Suicide in the State and County'>
+                              <style delta-type='added'>
+                                <style-rule element='axis'>
+                                  <encoding attr='space' class='0' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Latitude (generated)]' field-type='quantitative' max='15862010.49025543' min='-18015248.306805763' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                                  <encoding attr='space' class='0' field='[federated.10x7nkg160bqvy105oudx0hfcc0n].[Longitude (generated)]' field-type='quantitative' max='3326154.7702474222' min='-30387247.387028676' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                                </style-rule>
+                              </style>
+                              <current-page>
+                                <multibucket>
+                                  <bucket>2013</bucket>
+                                </multibucket>
+                              </current-page>
+                            </worksheet>
+                          </capturedDeltas>
+                        </story-point>
+                        <story-point caption='Totals by County' captured-sheet='County Totals' id='9'>
+                          <capturedDeltas>
+                            <worksheet name='County Totals'>
+                              <style delta-type='added'>
+                                <style-rule element='table'>
+                                  <format attr='show-null-value-warning' value='false' />
+                                </style-rule>
+                              </style>
+                            </worksheet>
+                          </capturedDeltas>
+                        </story-point>
+                        <story-point caption='State and Gender' captured-sheet='State and Gender' id='10' />
+                        <story-point caption='Gender and Suicide' captured-sheet='Gender Dashboard' id='11' />
+                        <story-point caption='Race, Gender, and Age' captured-sheet='Race, Age, and Gender' id='2'>
+                          <capturedDeltas>
+                            <worksheet name='Race, Age, and Gender'>
+                              <filter class='categorical' column='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Five-Year Age Groups:nk]'>
+                                <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+                                  <groupfilter function='level-members' level='[none:Five-Year Age Groups:nk]' />
+                                  <groupfilter function='member' level='[none:Five-Year Age Groups:nk]' member='&quot;Not Stated&quot;' />
+                                </groupfilter>
+                              </filter>
+                              <current-page>
+                                <multibucket>
+                                  <bucket>&quot;White&quot;</bucket>
+                                </multibucket>
+                              </current-page>
+                              <selection-collection>
+                                <node-selection select-tuples='false'>
+                                  <oriented-node-reference orientation='horizontal'>
+                                    <node-reference>
+                                      <fields>
+                                        <field>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]</field>
+                                        <field>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Five-Year Age Groups:nk]</field>
+                                      </fields>
+                                      <multibucket>
+                                        <bucket>&quot;Female&quot;</bucket>
+                                        <bucket>&quot;100+ years&quot;</bucket>
+                                      </multibucket>
+                                    </node-reference>
+                                    <page-reference>
+                                      <fields>
+                                        <field>[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]</field>
+                                      </fields>
+                                      <multibucket>
+                                        <bucket>&quot;White&quot;</bucket>
+                                      </multibucket>
+                                    </page-reference>
+                                  </oriented-node-reference>
+                                </node-selection>
+                              </selection-collection>
+                            </worksheet>
+                          </capturedDeltas>
+                        </story-point>
+                        <story-point caption='Totals by Race' captured-sheet='Race Dashboard' id='5'>
+                          <capturedDeltas>
+                            <dashboard name='Race Dashboard'>
+                              <zone id='17'>
+                                <formatted-text>
+                                  <run>Self-inflicted deaths have a higher total among American Indian and Afircan Amerian populations than among White populations, despite having a lower percentage of the total population.
+
+There was a yearly rise in suicides among the African Amerian population. The large r-squared (57%) and small p-value (7.9%) indicate that the trend is statistically significant.</run>
+                                </formatted-text>
+                              </zone>
+                            </dashboard>
+                          </capturedDeltas>
+                        </story-point>
+                      </story-points>
+                    </flipboard>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='59129' hidden='true' id='10' story-point-id='2' w='28642' x='71555' y='40456'>
+          <formatted-text>
+            <run fontalignment='0' fontsize='10'>Age groups are better documented among American Indian and Asian populations.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontsize='10'>Interestingly, there is a large number of self-inflicted deaths among women ages 60+ across all races. That number increases in both women and men as age increases.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontsize='10'>There is also a significant number of self-inflicted deaths among African American children ages 5-9.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{2251BCAA-8768-447B-B3F6-ACF251B9CBF4}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='89'>
+    <window class='worksheet' name='Suicide in the State and County'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10x7nkg160bqvy105oudx0hfcc0n].[sum:Deaths:qk]' type='color' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2018</bucket>
+          </multibucket>
+        </current-page>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{3D2C1E01-F3F4-4327-8CD9-F1DA10DCF24A}' />
+    </window>
+    <window class='worksheet' name='State and County Totals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[sum:Deaths:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A4DDACD1-0EAC-461D-9C7B-2ED7970B014F}' />
+    </window>
+    <window class='worksheet' name='Suicide Levels in States'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10x7nkg160bqvy105oudx0hfcc0n].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE86D1A8-E900-412C-881C-FBB6701A7352}' />
+    </window>
+    <window class='worksheet' name='Suicide Based on Age and Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9200557D-AD81-4A93-8F21-1BA4FA429AE4}' />
+    </window>
+    <window class='worksheet' name='Suicide based on Age and Race'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{386CD872-4C88-437B-B451-971812F5C715}' />
+    </window>
+    <window class='worksheet' name='Suicide based on Race and Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ifuj2v1blclqj1c378zz0gd5q43].[sum:Deaths:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1A940531-2F1C-413A-9BD7-47EFBE06134C}' />
+    </window>
+    <window class='worksheet' name='Suicide vs. Race'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='292'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A2526B2D-AF22-44CE-BDC8-1A6BD32B1170}' />
+    </window>
+    <window class='worksheet' name='County Totals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:State:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EB152894-4B3A-4409-BE9B-FC94A5391B4E}' />
+    </window>
+    <window class='worksheet' name='Race by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]&#10;[federated.10xx42q1fedtbp19q7rnj1lvkse1].[:Measure Names]' type='color' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2016</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{C44D6983-25C3-4BBB-8683-FF8E5C759CA9}' />
+    </window>
+    <window class='worksheet' name='Race, Age, and Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Race:nk]' type='color' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;American Indian or Alaska Native&quot;</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{BF7135B8-4795-4F9D-80DC-ECAE9986484A}' />
+    </window>
+    <window class='worksheet' name='State and Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10xx42q1fedtbp19q7rnj1lvkse1].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{71A0071D-9AA8-4B20-B40F-944D8DE69C7A}' />
+    </window>
+    <window class='dashboard' name='Race Dashboard'>
+      <viewpoints>
+        <viewpoint name='Suicide vs. Race'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{0A7DCCE5-809C-4ABA-B1A5-27EF5707DAA9}' />
+    </window>
+    <window class='dashboard' name='County Dashboard'>
+      <viewpoints>
+        <viewpoint name='County Totals' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{7C244B1A-5BAB-41F5-BA6C-DA34F9C0FD10}' />
+    </window>
+    <window class='dashboard' name='Gender Dashboard'>
+      <viewpoints>
+        <viewpoint name='Suicide Based on Age and Gender' />
+        <viewpoint name='Suicide based on Race and Gender' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BA51764F-8AF4-4812-89FA-63945E1EC1ED}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Suicide Story'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{37055C42-BED4-4F96-A12C-216A3C1496D4}' />
+    </window>
+  </windows>
+</workbook>
